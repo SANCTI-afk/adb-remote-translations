@@ -1,0 +1,26 @@
+<resources>
+    <!-- App Theme Preference -->
+    <string-array name="theme_entries">
+        <item>System default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <!-- Language Preference -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Myanmar</item>
+    </string-array>
+
+    <string-array name="language_values" translatable="false">
+        <item>en</item>
+        <item>my</item>
+    </string-array>
+
+</resources>

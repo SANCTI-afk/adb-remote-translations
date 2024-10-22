@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ADB Remote Community Support
+    url: https://t.me/adbRemoteChat
+    about: Please ask and answer questions here.
+  - name: ADB Remote channel
+    url: https://t.me/adbRemote
+    about: Please find out what's new with ADB Remote app here.
+  - name: Contact developer privately
+    url: https://t.me/kaungkhantx
+    about: Please contact developer privately via Telegram.

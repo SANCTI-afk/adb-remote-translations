@@ -1,0 +1,65 @@
+name: Bug Report
+description: Create a bug report for ADB Remote app to help us improve.
+title: "[Bug]: "
+labels: ["bug"]
+projects: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is. Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: |
+        <!-- Describe the bug you experienced -->
+
+        #### Expected behavior
+        <!-- What behavior did you expect? -->
+
+        #### Actual behavior
+        <!-- What happened instead? -->
+    validations:
+      required: true
+  - type: textarea
+    id: device-versions
+    attributes:
+      label: Device versions
+      description: Please provide the model and version of both the client and target devices.
+      value: |
+        #### Client device
+        Model: 
+        Android version: 
+
+        #### Target device
+        Model: 
+        Android version:
+    validations:
+      required: false
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of ADB Remote app are you running?
+      options:
+        - 1.0.0 (Default)
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: ADB Remote logs
+      description: Please copy and paste logs from ADB Remote app. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/kaungkhantjc/test/?tab=coc-ov-file).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

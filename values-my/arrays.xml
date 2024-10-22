@@ -1,0 +1,21 @@
+<resources>
+    <!-- App Theme Preference -->
+    <string-array name="theme_entries">
+        <item>မူလအတိုင်းထားရန်</item>
+        <item>အလင်း</item>
+        <item>အမှောင်</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <!-- Language Preference -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>မြန်မာ</item>
+    </string-array>
+
+</resources>

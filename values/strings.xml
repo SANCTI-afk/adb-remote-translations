@@ -1,291 +1,325 @@
 <resources>
-    <string name="ad_attribution" translatable="false">Ad</string>
     <string name="app_name">ADB Remote</string>
-    <string name="btn_add_device">Add device</string>
-    <string name="btn_agree">Agree</string>
-    <string name="btn_alt" translatable="false">Alt</string>
-    <string name="btn_apply">Apply</string>
-    <string name="btn_apply_promo">Apply</string>
-    <string name="btn_cancel">Cancel</string>
-    <string name="btn_connect">Connect</string>
-    <string name="btn_ctrl" translatable="false">Ctrl</string>
-    <string name="btn_delete">Delete</string>
-    <string name="btn_disagree">Disagree</string>
-    <string name="btn_download">Download</string>
-    <string name="btn_edit">Edit</string>
-    <string name="btn_escape" translatable="false">Esc</string>
-    <string name="btn_ignore_this_time">Ignore this time</string>
-    <string name="btn_insert" translatable="false">Insert</string>
-    <string name="btn_learn_more">Learn more</string>
-    <string name="btn_next">Next</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_previous">Previous</string>
-    <string name="btn_rate_app">Rate app</string>
-    <string name="btn_reconnect">Reconnect</string>
-    <string name="btn_reset">Reset</string>
-    <string name="btn_save">Save</string>
-    <string name="btn_send_feedback">Send feedback</string>
-    <string name="btn_share_app">Share app</string>
-    <string name="btn_shift" translatable="false">Shift</string>
-    <string name="btn_stop">Stop</string>
-    <string name="btn_tab" translatable="false">Tab</string>
+    <string name="btn_add_device">စက်အသစ်ချိတ်ရန်</string>
+    <string name="btn_agree">သဘောတူသည်</string>
+    <string name="btn_apply">စစ်ထုတ်ရန်</string>
+    <string name="btn_apply_promo">အသုံးပြုရန်</string>
+    <string name="btn_cancel">မလုပ်တော့</string>
+    <string name="btn_connect">ချိတ်ဆက်ရန်</string>
+    <string name="btn_delete">ဖျက်ရန်</string>
+    <string name="btn_disagree">သဘောမတူပါ</string>
+    <string name="btn_download">Download လုပ်ရန်</string>
+    <string name="btn_edit">ပြင်ဆင်ရန်</string>
+    <string name="btn_ignore_this_time">ဒီတစ်ကြိမ် update မလုပ်သေးပါ</string>
+    <string name="btn_learn_more">ပိုမိုသိရှိရန်</string>
+    <string name="btn_next">ရှေ့သို့</string>
+    <string name="btn_ok">အိုကေ</string>
+    <string name="btn_previous">နောက်သို့</string>
+    <string name="btn_randomize">ကျပမ်းပြောင်းရန်</string>
+    <string name="btn_rate_app">မှတ်ချက်ပေးရန်</string>
+    <string name="btn_reconnect">ပြန်ချိတ်ရန်</string>
+    <string name="btn_reset">Reset လုပ်ရန်</string>
+    <string name="btn_save">သိမ်းဆည်းရန်</string>
+    <string name="btn_send_feedback">အကြံပြုရန်</string>
+    <string name="btn_share_app">App ဝေမျှရန်</string>
+    <string name="btn_stop">ရပ်ရန်</string>
     <string name="btn_translations">Translations</string>
-    <string name="btn_try_again">Try again</string>
-    <string name="btn_unbind">Unbind</string>
-    <string name="btn_update">Update</string>
-    <string name="btn_watch">Watch</string>
-    <string name="const_tcp_port" translatable="false">5555</string>
-    <string name="err_connection_timeout">Connection timed out. Please try again.</string>
-    <string name="err_connection_timeout_multiple_times">Connection timed out. Please ensure the IP address and port number are correct. If the issue persists, please restart the app or reboot this device and try again.</string>
-    <string name="err_device_unreachable">Device is unreachable. Please try again or reconnect.</string>
-    <string name="err_empty_device_name">Device name should not be empty.</string>
-    <string name="err_failed_to_connect">Failed to connect to the server.</string>
-    <string name="err_fetching_terms">Failed to connect to the server. Please visit our website directly.</string>
-    <string name="err_invalid_ip_address">Invalid IP Address.</string>
-    <string name="err_invalid_pairing_code">Invalid pairing code.</string>
-    <string name="err_invalid_port">Invalid port.</string>
-    <string name="err_invalid_promo_code">Invalid promo code.</string>
-    <string name="err_save_screenshot_failed">Failed to save screenshot.</string>
-    <string name="err_setting_tcp_ip_mode">Setting TCP-IP mode failed.</string>
-    <string name="err_too_many_requests">Too many requests. Please try again later.</string>
-    <string name="err_unexpected">Unexpected error occurred.</string>
-    <string name="hint_customize_control_buttons">You can easily customize the buttons.\n\n1. Tap on the button you want to change.\n2. A list of available buttons will appear. Select the desired button to assign it.</string>
-    <string name="msg_adb_reset_guide">User\'s settings will not be deleted. Existing ADB connections will be disconnected. ADB configurations, including device and favorite app lists, will be deleted. You will need to reconnect ADB after the reset.\n\nIf the connection problem persists, please try to:\n\n- Restart the app\n- Reboot this device\n- Reinstall the app\n\nIf none of these solutions work, please contact us.</string>
-    <string name="msg_adb_service">connected to the device.</string>
-    <string name="msg_added_to_fav_apps">Added to favorite apps.</string>
-    <string name="msg_allow_usb_debugging">Please allow USB debugging on the target device by pressing OK button.</string>
-    <string name="msg_app_data_cleared">%s app data cleared.</string>
-    <string name="msg_app_disabled">%s app disabled.</string>
-    <string name="msg_app_enabled">%s app enabled.</string>
-    <string name="msg_app_force_stopped">%s app force stopped.</string>
-    <string name="msg_app_info_settings_launched">%s app info settings launched.</string>
-    <string name="msg_app_launched">%s app launched.</string>
-    <string name="msg_app_launched_in_play_store">%s app launched in Play Store.</string>
-    <string name="msg_app_uninstalled">%s app uninstalled.</string>
-    <string name="msg_cache_cleared">%s freed on your device!</string>
-    <string name="msg_changing_tcp_ip_mode">Connected! Changing TCP-IP mode …</string>
-    <string name="msg_changing_tcp_ip_mode_takes_too_long">Changing TCP-IP mode …, if it takes too long, please reconnect  or restart app.</string>
-    <string name="msg_character_not_supported">\'%s\' character is not supported yet.</string>
-    <string name="msg_clear_cache">All app cache, such as app icons and ADB logs, will be deleted.</string>
-    <string name="msg_clear_data_confirmation">All app data, including files, settings, accounts databases, and cache will be permanently deleted.</string>
-    <string name="msg_connect_after_paired">Paired! Connecting to the device …</string>
-    <string name="msg_connect_after_paired_takes_too_long">Connecting to the device .., if it takes too long, please reconnect or restart app.</string>
-    <string name="msg_connect_to_a_device">Connect to a device</string>
-    <string name="msg_connected_to">Connected to %s.</string>
-    <string name="msg_connecting_to">Connecting to %s …</string>
-    <string name="msg_contribute_translations">Is your language missing or would you like to improve the translations? Please consider contributing to our translation repository on GitHub.</string>
-    <string name="msg_copied_to_clipboard">Copied to clipboard.</string>
-    <string name="msg_delete_device_confirmation">Deleting this device will also remove the list of favorite apps associated with it.</string>
-    <string name="msg_disable_app_confirmation">If you disable this app, Android and other apps may no longer function as intended.</string>
-    <string name="msg_disconnecting_devices">Disconnecting devices …</string>
-    <string name="msg_editing_ip_port_warning">Editing the IP address or port may cause connection failure. Please proceed with caution or delete this device and reconnect it.</string>
-    <string name="msg_empty">There\'s nothing here.</string>
-    <string name="msg_failed_to_authenticate">Failed to authenticate. Please allow USB debugging on the target device.</string>
-    <string name="msg_failed_to_launch_url">No app found to open the link.</string>
-    <string name="msg_force_stop_all_confirmation">If you force stop all visible running processes, they may misbehave and the system may become unstable. Note that only the processes you filtered out will be killed.</string>
-    <string name="msg_force_stop_confirmation">If you force stop an app, it may misbehave.</string>
-    <string name="msg_force_stopped_processes">Processes have been forcibly stopped.</string>
-    <string name="msg_got_promo_code">Got a promo code?</string>
-    <string name="msg_keyboard_info">App can send key combinations using supported modifier keys (Shift, Ctrl, and Alt). However, only two combinations are currently supported.\ne.g.\n\n- Ctrl + A\n- Ctrl + C\n- Ctrl + V\n- Ctrl + T\n- Alt + D\n- Alt + Left arrow etc ..\n\nPlease note that the text preview may differ from the actual text on the connected device. This is because text content from the currently focused input cannot be retrieved from the ADB. Moving the cursor from the preview is supported, but app disables text selection on it. Although selecting text on the current device should also select text on the target device, text selection may produce unexpected results since the app cannot retrieve the actual full text. This scenario also applies to key combinations like Ctrl+A and Ctrl+V. That\'s why the preview cannot accurately emulate all scenarios. Due to ADB\'s limitations to printable ASCII characters, app currently only supports these characters.</string>
-    <string name="msg_logs_empty">To view logs, please enable logs and connect a device first.</string>
-    <string name="msg_logs_info">Logs are temporarily stored on this device and never shared unless you manually share it.</string>
-    <string name="msg_memory_detail">In use : %1$s (%2$d%%)\nAvailable: %3$s (%4$d%%)\nTotal : %5$s</string>
-    <string name="msg_no_connected_devices">There\'s no connected devices yet.</string>
-    <string name="msg_no_reward_ad">No ad to show. Please try again later.</string>
-    <string name="msg_notification_permission">To provide seamless device connection alerts and easy disconnection option, app requires notification permission.</string>
-    <string name="msg_pairing_to">Pairing to %s …</string>
-    <string name="msg_pause_ad_info">Watch a short ad to unlock 1 day of premium, pause ads, and enjoy an ad-free experience. Earn additional days by viewing more ads.</string>
-    <string name="msg_premium_access_ends_on">Premium access ends on %s.</string>
-    <string name="msg_premium_access_lifetime">Congratulations! Premium access is lifetime.</string>
-    <string name="msg_prepare_after_connected">Connected! Getting your device ready …</string>
-    <string name="msg_prepare_after_connected_takes_too_long">Connected! Getting your device ready .., if it takes too long, please reconnect or restart app.</string>
-    <string name="msg_prepare_after_tcp_ip_mode">TCP-IP mode changed. Reconnecting using TCP-IP …</string>
-    <string name="msg_preview_warning">Preview may differ from actual text.</string>
-    <string name="msg_rate_app">Thank you for using the app.\n\nEnjoying the app? Please rate us! If you\'re facing any issues, we\'d love to hear from you.</string>
-    <string name="msg_removed_from_fav_apps">Removed from favorite apps.</string>
-    <string name="msg_screenshot_saved">Screenshot saved.</string>
-    <string name="msg_share_app">Seamlessly control and unleash the power of your Android TV. Seamlessly control your Android TV using ADB Remote app. Get it for free on Play Store or through the link below.\n\n%s\n\n#adbRemote</string>
-    <string name="msg_text_selection_not_supported">Text selection is not supported yet.</string>
-    <string name="msg_unbind_promo_notice">Applied promo code will be removed and can be reused on this or another device.</string>
-    <string name="msg_uninstall_app_confirmation">Uninstalling will remove all app data.</string>
-    <string name="msg_vpn_warning">ADB may not work with VPN on.</string>
-    <string name="msg_wifi_disconnected">Please connect both devices to the same WiFi network.</string>
-    <string name="notification_channel_device_connection" translatable="false">Device connection</string>
-    <string name="summary_disable_haptic_feedback_on_release">Disable haptic feedback when releasing pressed buttons</string>
-    <string name="summary_do_not_use_back_action">App controls back action using device\'s back button if option is off.</string>
-    <string name="summary_do_not_use_volume_buttons">App controls volume actions using device\'s volume buttons if option is off.</string>
-    <string name="summary_enable_haptic_feedback">Enable haptic feedback when tapping buttons</string>
-    <string name="summary_open_source_licenses">License details for open source software</string>
-    <string name="summary_reset_adb_config">Resetting it may fix unexpected adb connection issues</string>
-    <string name="summary_use_dynamic_color">Apply colors from wallpapers to the app theme</string>
-    <string name="summary_use_physical_buttons">Use physical buttons on this device and external keyboards</string>
-    <string name="summary_use_vibrator_api_for_haptic">Use Vibrator API for haptic feedback if buttons do not perform haptic feedback</string>
-    <string name="title_add_to_fav_apps">Add to favorite apps</string>
-    <string name="title_all">All</string>
-    <string name="title_allow_usb_debugging" translatable="false">Allow USB debugging</string>
-    <string name="title_android_tv_support">Android TV support</string>
-    <string name="title_android_version">Android version</string>
-    <string name="title_app_info">App info</string>
-    <string name="title_app_name">App name</string>
-    <string name="title_app_size">App size</string>
-    <string name="title_app_state">App state</string>
-    <string name="title_app_theme">App theme</string>
-    <string name="title_app_type">App type</string>
-    <string name="title_app_version">Version: %1$s (%2$s)</string>
+    <string name="btn_try_again">ထပ်လုပ်ရန်</string>
+    <string name="btn_unbind">ပြန်ဖြုတ်ရန်</string>
+    <string name="btn_update">Update လုပ်ရန်</string>
+    <string name="btn_watch">ကြည့်ရန်</string>
+    <string name="err_connection_timeout">ချိတ်ဆက်မှု အချိန်ကျော်လွန်သွားပါသည်။ ကျေးဇူးပြု၍
+        ပြန်ချိတ်ပါ။</string>
+    <string name="err_connection_timeout_multiple_times">ချိတ်ဆက်မှု အချိန်ကျော်လွန်သွားပါသည်။
+        ကျေးဇူးပြု၍ IP လိပ်စာနှင့် Port နံပါတ်များ မှန်၊ မမှန် ပြန်စစ်ပါ။ ချိတ်မရ ဖြစ်နေသေးလျှင် app
+        ကို recent ထဲမှ ရှင်းပြီး ပြန်ဖွင့်ခြင်း သို့မဟုတ် ဖုန်းကို reboot ချခြင်းတို့ လုပ်ဆောင်ပြီး
+        ပြန်ချိတ်ပါ။</string>
+    <string name="err_device_unreachable">စက်နှင့် ချိတ်ဆက်၍ မရပါ။ နောက်တစ်ကြိမ် ပြန်ချိတ်ကြည့်ပါ။</string>
+    <string name="err_empty_device_name">နာမည် မထည့်ရသေးပါ။</string>
+    <string name="err_failed_to_connect">ဆာဗာသို့ ချိတ်ဆက်၍မရပါ။</string>
+    <string name="err_fetching_terms">ဆာဗာသို့ ချိတ်ဆက်၍ မရသောကြောင့် ကျေးဇူးပြု၍ website သို့
+        တိုက်ရိုက်ဝင်ရောက်ကြည့်ရှုပေးပါ။</string>
+    <string name="err_invalid_adb_server_token">Token မှားနေပါသည်။</string>
+    <string name="err_invalid_ip_address">IP လိပ်စာ မှားသည်။</string>
+    <string name="err_invalid_pairing_code">Pairing code မှားသည်။</string>
+    <string name="err_invalid_port">Port နံပါတ် မှားသည်။</string>
+    <string name="err_invalid_promo_code">ပရိုမိုကုဒ် မမှန်ကန်ပါ။</string>
+    <string name="err_save_screenshot_failed">Screenshot သိမ်းဆည်းမရပါ။</string>
+    <string name="err_setting_tcp_ip_mode">TCP-IP စနစ်ပြောင်းခြင်း မအောင်မြင်ပါ။</string>
+    <string name="err_too_many_requests">အသုံးပြုရန် တောင်းဆိုမှု များလွန်းသောကြောင့် နောက်မှ
+        ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="err_unexpected">မထင်မှတ်သော ပြဿနာ ဖြစ်ခဲ့သည်။</string>
+    <string name="hint_customize_control_buttons">ခလုတ်များကို စိတ်ကြိုက်
+        နေရာရွှေ့ပြောင်းနိုင်ပါသည်။\n\n၁။ ပြောင်းချင်သော ခလုတ်ကို နှိပ်ပါ။\n၂။ ထည့်သွင်းနိုင်သော
+        ခလုတ်များ ပေါ်လာပါမည်။ နှစ်သက်ရာခလုတ်ကို ရွေးပြီး ပြောင်းပါ။</string>
+    <string name="msg_adb_reset_guide">User ပြင်ဆင်ထားသော ဆက်တင်များကို မဖျက်ပါ။ လက်ရှိ
+        ချိတ်ဆက်ထားသော ADB connection ကို ဖြုတ်ပါမည်။ ADB စနစ်ကို reset လုပ်မည်ဖြစ်ပြီး
+        ချိတ်ဆက်ပြီးသား စက်များ အပါအဝင် စိတ်ကြိုက် app စာရင်းများကို ဖျက်ပါမည်။ Reset
+        လုပ်ပြီးသွားလျှင် ပြန်လည်ချိတ်ဆက်ရန် လိုပါသည်။\n\nချိတ်မရသော ပြဿနာ ဆက်ဖြစ်နေသေးပါက
+        အောက်ပါအတိုင်း လုပ်ဆောင်ကြည့်ပေးပါ။\n\n- app ကို recent ထဲမှ ရှင်းပြီး ပြန်ဝင်ကြည့်ပါ။\n-
+        ယခု ဖုန်းကို reboot လုပ်ကြည့်ပါ။\n- app ကို ဖျက်ပြီး install
+        ပြန်လုပ်ကြည့်ပါ။\n\nအထက်ပါနည်းများအားလုံး လုပ်ဆောင်ပြီး အဆင်မပြေသေးပါက developer သို့
+        ဆက်သွယ် အကြောင်းကြားနိုင်ပါသည်။</string>
+    <string name="msg_adb_server_token">ADB server token ကို စက်အချင်းချင်း လုံခြုံစွာ
+        ချိတ်ဆက်ရာတွင် အသုံးပြုပါသည်။ Android TV တစ်ခုတည်းကို ယခုဖုန်းအပြင် အခြားဖုန်းများနှင့်
+        တစ်ပြိုင်နက်တည်း ချိတ်ဆက်လိုပါက ယခုဖုန်းမှ token ကို ကူးယူပြီး အခြားဖုန်းများတွင် ထည့်ပေးရန်
+        လိုအပ်ပါသည်။ ကူးမထည့်လိုလျှင် ချိတ်ဆက်မည့် ဖုန်းအားလုံးတွင် \"Default ADB server token ကို
+        သုံးပါ\" option ကို ဖွင့်ပြီး ချိတ်ဆက်နိုင်ပါသည်။</string>
+    <string name="msg_adb_service">ချိတ်ဆက်ထားပါသည်။</string>
+    <string name="msg_added_to_fav_apps">စိတ်ကြိုက် app စာရင်းသို့ ထည့်လိုက်ပါပြီ။</string>
+    <string name="msg_allow_usb_debugging">"ချိတ်ဆက်နေသော စက်တွင် OK ကို နှိပ်ပြီး USB debugging
+        ခွင့်ပြုချက်ပေးပါ။ "</string>
+    <string name="msg_app_data_cleared">"%s app ၏ data များကို ဖျက်လိုက်ပါပြီ။ "</string>
+    <string name="msg_app_disabled">%s app ကို ဖျောက်လိုက်ပါပြီ။</string>
+    <string name="msg_app_enabled">%s app ကို ပြန်ပြလိုက်ပါပြီ။</string>
+    <string name="msg_app_force_stopped">%s app ကို ချက်ချင်း ပိတ်လိုက်ပါပြီ။</string>
+    <string name="msg_app_info_settings_launched">%s app ၏ info settings ကို ဖွင့်လိုက်ပါပြီ။</string>
+    <string name="msg_app_launched">%s app ကို ဖွင့်လိုက်ပါပြီ။</string>
+    <string name="msg_app_launched_in_play_store">%s app ကို Play Store တွင် ဖွင့်လိုက်ပါပြီ။</string>
+    <string name="msg_app_uninstalled">%s app ကို uninstall လုပ်လိုက်ပါပြီ။</string>
+    <string name="msg_cache_cleared">%s နေရာ လွတ်သွားပါပြီ။</string>
+    <string name="msg_changing_tcp_ip_mode">ချိတ်ဆက်ပြီးပါပြီ။ TCP-IP စနစ် ပြောင်းနေပါသည် …</string>
+    <string name="msg_changing_tcp_ip_mode_takes_too_long">"ချိတ်ဆက်ပြီးပါပြီ။ TCP-IP စနစ်
+        ပြောင်းနေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ
+        ရှင်းပြီး ပြန်ချိတ်ပါ။ "</string>
+    <string name="msg_character_not_supported">\'%s\' စာလုံးကို လက်ရှိတွင် ရိုက်မရသေးပါ။</string>
+    <string name="msg_clear_cache">"App icon များနှင့် ADB log များကဲ့သို့သော cache အားလုံးကို
+        ရှင်းပစ်ပါမည်။ "</string>
+    <string name="msg_clear_data_confirmation">"app ရှိ ဖိုင်များ၊ ဆက်တင်များ၊ အကောင့် data များ
+        နှင့် ယာယီ data (cache) များအပါအဝင် app ၏ data အားလုံး အပြီးအပိုင် ပျက်သွားပါမည်။ "</string>
+    <string name="msg_connect_after_paired">ဆက်သွယ်ပြီးပါပြီ။ ချိတ်ဆက်နေပါသည် …</string>
+    <string name="msg_connect_after_paired_takes_too_long">ချိတ်ဆက်နေပါသည် … ၊ အချိန်ကြာနေလျှင်
+        ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ ရှင်းပြီး ပြန်ချိတ်ပါ။</string>
+    <string name="msg_connect_to_a_device">ချိတ်ဆက်ရန်</string>
+    <string name="msg_connected_to">%s နှင့် ချိတ်ဆက်ထားသည်</string>
+    <string name="msg_connecting_to">%s နှင့် ချိတ်ဆက်နေသည် …</string>
+    <string name="msg_contribute_translations">မြင်ချင်သော ဘာသာစကား ရှာမတွေ့လျှင် သို့မဟုတ်
+        ပိုမိုကောင်းမွန်အောင် ဖြည့်စွက်ပြင်ဆင်လိုလျှင် ကျေးဇူးပြု၍ GitHub repository တွင် ဘာသာပြန်၍
+        ပါဝင်ကူညီနိုင်ပါသည်။</string>
+    <string name="msg_copied_to_clipboard">Clipboard သို့ ကူးပြီးပါပြီ။</string>
+    <string name="msg_delete_device_confirmation">ဖျက်လျှင် ဤစက်အတွက် မှတ်ထားသော စိတ်ကြိုက် app
+        စာရင်းပါ ပျက်ပါမည်။</string>
+    <string name="msg_disable_app_confirmation">ယခု app ကို ဖျောက်လိုက်လျှင် (disable
+        လုပ်လိုက်လျှင်) Android နှင့် အခြား app များ ပုံမှန်အလုပ်လုပ်ခြင်းကို အဟန့်အတား ဖြစ်ကောင်း
+        ဖြစ်စေနိုင်ပါသည်။</string>
+    <string name="msg_disconnecting_devices">ချိတ်ဆက်မှု ဖြုတ်နေသည် …</string>
+    <string name="msg_editing_ip_port_warning">IP လိပ်စာ သို့မဟုတ် port ကို ပြင်ဆင်လျှင် ချိတ်မရ
+        ဖြစ်တတ်ပါသည်။ ကျေးဇူးပြု၍ သေချာပြင်ဆင်ပါ၊ သို့မဟုတ် ဖျက်ပြီး ပြန်ချိတ်ကြည့်ပါ။</string>
+    <string name="msg_empty">ဘာမှ မရှိပါ။</string>
+    <string name="msg_failed_to_authenticate">ချိတ်ဆက်မည့် စက်တွင် USB debugging ကို ခွင့်ပြုပေးပြီး
+        ပြန်ချိတ်ပါ။ Always allow from this computer ကို အမှန်ခြစ်ပြီး OK ကို နှိပ်ရပါမည်။</string>
+    <string name="msg_failed_to_launch_url">Link ဖွင့်ရန် app မတွေ့ပါ။</string>
+    <string name="msg_force_stop_all_confirmation">လက်ရှိ run နေသော process များကို ရပ်ပစ်လျှင် ၎င်း
+        app များ၏ လုပ်ဆောင်ချက်များ ချက်ချင်းရပ်တန့်သွားမည် ဖြစ်ပြီး system အား မတည်မငြိမ်
+        ဖြစ်စေနိုင်ပါသည်။ စစ်ထုတ်ထားသော process များကိုသာ ရပ်တန့်မည် ဖြစ်သည်။</string>
+    <string name="msg_force_stop_confirmation">App တစ်ခုကို ချက်ချင်းပိတ်လိုက်ပါက ၎င်း app ၏
+        လုပ်ဆောင်ချက်များ ချက်ချင်းရပ်တန့်သွားပါမည်။</string>
+    <string name="msg_force_stopped_processes">Processes များကို ချက်ချင်းပိတ်ပစ်လိုက်ပါပြီ။</string>
+    <string name="msg_got_promo_code">ပရိုမိုကုဒ်တစ်ခု ရထားပါသလား?</string>
+    <string name="msg_keyboard_info">Shift, Ctrl နှင့် Alt ကီးများကို သုံး၍ ကီးအတွဲများ
+        ပို့နိုင်ပါသည်။ သို့သော် လက်ရှိတွင် ကီးအတွဲ ၂ ခုသာ ပို့နိုင်ပါသည်။\nဥပမာ။\n\n– Ctrl + A\n–
+        Ctrl + C\n– Ctrl + V\n– Ctrl + T\n– Alt + D\n– Alt + Left arrow စသည်
+        ..\n\nအစမ်းကြည့်ရှုမှုတွင် မြင်ရသောစာသည် ချိတ်ထားသောစက်မှ စာနှင့် ကွဲလွဲနိုင်သည်ကို
+        သတိပြုစေလိုပါသည်။ လက်ရှိချိတ်ထားသော စက်မှ စာများကို တိုက်ရိုက်မရယူနိုင်သောကြောင့် ဖြစ်ပါသည်။
+        \nအစမ်းကြည့်ရှုမှုမှ cursor ကို ရွှေ့နိုင်ပါသည်၊ သို့သော် ၎င်းအပေါ်၌ စာသားရွေးချယ်မှု (text
+        selection) ကို လက်ရှိတွင် ခွင့်မပြုထားသေးပါ။ ယခုစက်တွင် စာသားရွေးချယ်လိုက်လျှင် ချိတ်ထားသော
+        စက်တွင်လည်း စာသားရွေးချယ်သွားသင့်သော်လည်း အမှန်တကယ် စာသားအပြည့်အစုံကို မရယူနိုင်သဖြင့်
+        ရွေးချယ်မှု မှားယွင်းနိုင်သောကြောင့်ဖြစ်သည်။ Ctrl+A နှင့် Ctrl+V ကဲ့သို့ ကီးအတွဲများကို
+        နှိပ်လျှင်လည်း ထိုနည်းအတိုင်းပင် ဖြစ်သည်။ ထို့ကြောင့် အစမ်းကြည့်ရှုမှုတွင် စာများ
+        ကွဲလွဲနိုင်ခြင်း ဖြစ်ပါသည်။ ADB ၏ ကန့်သတ်ချက်များကြောင့် လက်ရှိတွင် printable ASCII
+        စာလုံးများ (a မှ Z, 0 မှ 9 နှင့် symbol အချို့) ကိုသာ ရိုက်နိုင်ပါသေးသည်။</string>
+    <string name="msg_logs_empty">မှတ်တမ်းများ မရှိသေးပါ။ မှတ်တမ်း ကြည့်ရှုနိုင်ရန် မှတ်တမ်းကို
+        ဖွင့်ပြီး စက်ဖြင့် ချိတ်ကြည့်ပါ။</string>
+    <string name="msg_logs_info">မှတ်တမ်းများကို ဤစက်၌သာ သိမ်းဆည်းထားပါသည်။</string>
+    <string name="msg_memory_detail">သုံးနေဆဲ : %1$s (%2$d%%)\nလက်ကျန်: %3$s (%4$d%%)\nစုစုပေါင်း :
+        %5$s</string>
+    <string name="msg_no_connected_devices">ချိတ်ထားသော စက်များ မရှိပါ။</string>
+    <string name="msg_no_reward_ad">ပြသရန် ကြော်ငြာ မရှိသေးပါသဖြင့် နောက်မှ ထပ်စမ်းကြည့်ပေးပါ။</string>
+    <string name="msg_notification_permission">မိမိစက်နှင့် ချိတ်ဆက်ထားကြောင်း notification
+        ပြရန်နှင့် ချိတ်ဆက်မှု အလွယ်တကူ ဖြုတ်နိုင်ရန် Notification ခွင့်ပြုချက် လိုအပ်ပါသည်။</string>
+    <string name="msg_pairing_to">%s နှင့် ဆက်သွယ်နေသည် …</string>
+    <string name="msg_pause_ad_info">ကြော်ငြာ ဗီဒီယို အတိုတစ်ပုဒ် ကြည့်ရှုပြီး ပရီမီယံ ၁ ရက်စာ
+        ရယူလိုက်ပါ။ ရယူပြီးလျှင် ကြော်ငြာအားလုံး ပျောက်သွားပါမည်။ ကြော်ငြာ ထပ်မံကြည့်ရှုပြီး ပရီမီယံ
+        သက်တမ်းတိုးနိုင်ပါသည်။</string>
+    <string name="msg_premium_access_ends_on">%s တွင် ပရီမီယံ အသုံးပြုခွင့်ကုန်ဆုံးပါမည်။</string>
+    <string name="msg_premium_access_lifetime">ဂုဏ်ယူပါသည်။ တစ်သက်တာ ပရီမီယံအသုံးပြုခွင့်
+        ရရှိထားပါသည်။</string>
+    <string name="msg_prepare_after_connected">ချိတ်ဆက်ပြီးပါပြီ။ အဆင်သင့်ဖြစ်ရန် ပြင်ဆင်နေပါသည် …</string>
+    <string name="msg_prepare_after_connected_takes_too_long">"ချိတ်ဆက်ပြီးပါပြီ။ အဆင်သင့်ဖြစ်ရန်
+        ပြင်ဆင်နေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ
+        ရှင်းပြီး ပြန်ချိတ်ပါ။ "</string>
+    <string name="msg_prepare_after_tcp_ip_mode">TCP-IP စနစ် ပြောင်းပြီးပါပြီ။ TCP-IP ဖြင့်
+        ပြန်ချိတ်နေပါသည် …</string>
+    <string name="msg_preview_warning">ဤတွင် မြင်ရသောစာသည် ချိတ်ထားသောစက်မှ စာနှင့်
+        ကွဲလွဲနိုင်ပါသည်။</string>
+    <string name="msg_rate_app">အသုံးပြုမှုအတွက် ကျေးဇူး အထူးတင်ရှိပါသည်။\n\napp ကို နှစ်သက်လျှင်
+        Play Store တွင် အဆင့်သတ်မှတ်ပြီး မှတ်ချက်ပေးနိုင်ပါသည်။ အသုံးပြုရာတွင် ပြဿနာ တစ်ခုခုရှိပါက
+        အကြံပြုချက်များ ပေးပို့ရန် မေတ္တာရပ်ခံအပ်ပါသည်။</string>
+    <string name="msg_removed_from_fav_apps">စိတ်ကြိုက် app စာရင်းမှ ဖယ်လိုက်ပါပြီ။</string>
+    <string name="msg_screenshot_saved">Screenshot ကို သိမ်းပြီးပါပြီ။</string>
+    <string name="msg_share_app">ADB Remote app ဖြင့် Android TV ကို စိတ်တိုင်းကျ
+        ထိန်းချုပ်အသုံးပြုလိုက်ပါ။ Play Store သို့မဟုတ် အောက်ပါလင့်ခ်မှတဆင့် အခမဲ့
+        ရယူနိုင်ပါသည်။\n\n%s\n\n#adbRemote</string>
+    <string name="msg_text_selection_not_supported">စာသားရွေးချယ်မှုကို လက်ရှိတွင်
+        ခွင့်မပြုထားသေးပါ။</string>
+    <string name="msg_unbind_promo_notice">အသုံးပြုထားသော ပရိုမိုကုဒ်ကို ဖယ်ရှားမည်ဖြစ်ပြီး ဤစက်
+        သို့မဟုတ် အခြားစက်တွင် ပြန်လည်အသုံးပြုနိုင်ပါသည်။</string>
+    <string name="msg_uninstall_app_confirmation">Uninstall လုပ်လျှင် app ၏ data များ အားလုံး
+        ပျက်ပါမည်။</string>
+    <string name="msg_vpn_warning">VPN ဖွင့်ထားလျှင် ချိတ်မရဖြစ်တတ်သည်။</string>
+    <string name="msg_wifi_disconnected">ဖုန်းနှင့် ချိတ်မည့်စက် နှစ်ခုလုံးကို WiFi အတူတူ
+        ချိတ်ထားပါ။</string>
+    <string name="summary_disable_haptic_feedback_on_release">ယခု option ကို ပိတ်ထားလျှင်
+        ခလုတ်များကို နှိပ်ပြီး ပြန်ကြွသောအခါ တုန်ခါစေပါသည်</string>
+    <string name="summary_do_not_use_back_action">ယခု option ကို ပိတ်ထားလျှင် ချိတ်ဆက်ထားသော စက်ကို
+        ဖုန်း၏ back ခလုတ်ဖြင့် back ထွက်နိုင်ပါသည်</string>
+    <string name="summary_do_not_use_volume_buttons">ယခု option ကို ပိတ်ထားလျှင် ချိတ်ဆက်ထားသော
+        စက်ကို ဖုန်း၏ အသံတိုးချဲ့ ခလုတ်ဖြင့် အသံ တိုးချဲ့နိုင်ပါသည်</string>
+    <string name="summary_enable_haptic_feedback">ခလုတ်များကို နှိပ်လျှင် တုန်ခါမှု ဖြစ်စေပါမည်</string>
+    <string name="summary_open_source_licenses">အခမဲ့ ရင်းမြစ် ဆော့ဖ်ဝဲအတွက် လိုင်စင်အသေးစိတ်များ</string>
+    <string name="summary_reset_adb_config">"ADB စနစ်ကို reset လုပ်ခြင်းဖြင့် ချိတ်မရသော
+        ပြဿနာများကို ဖြေရှင်းနိုင်ပါသည်</string>
+    <string name="summary_use_default_adb_server_token">စမ်းသပ်ရန်အတွက်သာဖြစ်ပြီး shared random
+        token ကိုသာ အသုံးပြုပါ။ </string>
+    <string name="summary_use_dynamic_color">Wallpaper ပုံများမှ အရောင်များကို အသုံးပြုပါ။</string>
+    <string name="summary_use_physical_buttons">ယခုဖုန်းနှင့် ပြင်ပကီးဘုတ်များ၏ ခလုတ်များကို
+        အသုံးပြုပါ</string>
+    <string name="summary_use_vibrator_api_for_haptic">ခလုတ်များကို နှိပ်၍ မတုန်လျှင် တုန်ခါမှုစနစ်
+        ပြောင်းသုံးပါ</string>
+    <string name="title_adb_server_token">ADB server token</string>
+    <string name="title_add_to_fav_apps">စိတ်ကြိုက် app စာရင်းတွင် ထည့်ရန်</string>
+    <string name="title_all">အားလုံး</string>
+    <string name="title_android_tv_support">Android TV ထောက်ပံ့မှု</string>
+    <string name="title_android_version">Android ဗားရှင်း</string>
+    <string name="title_app_info">App အသေးစိတ် အချက်အလက်</string>
+    <string name="title_app_name">App နာမည်</string>
+    <string name="title_app_size">App အရွယ်အစား</string>
+    <string name="title_app_state">App အခြေအနေ</string>
+    <string name="title_app_theme">App အသွင်အပြင်</string>
+    <string name="title_app_type">App အမျိုးအစား</string>
+    <string name="title_app_version">ဗားရှင်း %1$s (%2$s)</string>
     <string name="title_apps">Apps</string>
-    <string name="title_back">Back</string>
-    <string name="title_battery_info">Battery info</string>
+    <string name="title_back">နောက်သို့</string>
+    <string name="title_battery_info">ဘတ္ထရီ အသေးစိတ် အချက်အလက်</string>
     <string name="title_board">Board</string>
-    <string name="title_brand">Brand</string>
-    <string name="title_buttons">Buttons</string>
-    <string name="title_choose_one">Please choose one</string>
-    <string name="title_clear_cache">Clear cache</string>
-    <string name="title_clear_cache_size">Clear cache (%s)</string>
-    <string name="title_clear_data">Clear data</string>
-    <string name="title_clear_data_confirmation">Delete all data?</string>
-    <string name="title_clear_logs">Clear logs</string>
-    <string name="title_client_app_version" translatable="false">%s (%d)</string>
-    <string name="title_close_drawer">Close drawer</string>
-    <string name="title_compile_sdk" translatable="false">Compile SDK</string>
-    <string name="title_continuous_press_delay">Continuous press delay</string>
-    <string name="title_copy">Copy</string>
-    <string name="title_cpu_info">CPU info</string>
-    <string name="title_cpu_usage">CPU usage</string>
-    <string name="title_customize_control_buttons">Customize control buttons</string>
-    <string name="title_data_path">Data path</string>
-    <string name="title_default_ip" translatable="false">192.168.x.x</string>
-    <string name="title_default_port" translatable="false">5555</string>
-    <string name="title_delete_device_confirmation">Delete device?</string>
-    <string name="title_developer">Developer</string>
-    <string name="title_developer_name" translatable="false">Kaung Khant Kyaw</string>
-    <string name="title_device">Device</string>
-    <string name="title_device_info">Device Info</string>
-    <string name="title_devices">Devices</string>
-    <string name="title_disable_app">Disable app</string>
-    <string name="title_disable_app_confirmation">Disable app?</string>
-    <string name="title_disable_haptic_on_release">Disable haptic on release</string>
-    <string name="title_disabled">Disabled</string>
-    <string name="title_do_not_use_back_action">Don\'t use back action</string>
-    <string name="title_do_not_use_volume_buttons">Don\'t use volume buttons</string>
-    <string name="title_enable_app">Enable app</string>
-    <string name="title_enable_haptic_feedback">Enable haptic feedback</string>
-    <string name="title_enable_logs">Enable logs</string>
-    <string name="title_enable_pointers">Enable pointers</string>
-    <string name="title_enabled">Enabled</string>
-    <string name="title_extra_buttons">Extra buttons</string>
-    <string name="title_f1" translatable="false">F1</string>
-    <string name="title_f2" translatable="false">F2</string>
-    <string name="title_f3" translatable="false">F3</string>
-    <string name="title_f4" translatable="false">F4</string>
-    <string name="title_f5" translatable="false">F5</string>
-    <string name="title_f6" translatable="false">F6</string>
-    <string name="title_f7" translatable="false">F7</string>
-    <string name="title_f8" translatable="false">F8</string>
-    <string name="title_f9" translatable="false">F9</string>
-    <string name="title_f10" translatable="false">F10</string>
-    <string name="title_f11" translatable="false">F11</string>
-    <string name="title_f12" translatable="false">F12</string>
-    <string name="title_favorite_apps">Favorite apps</string>
-    <string name="title_file_path">File path</string>
-    <string name="title_filter">Filter</string>
-    <string name="title_filter_apps">Filter apps</string>
-    <string name="title_follow_on_facebook">Follow on Facebook</string>
-    <string name="title_force_stop">Force stop</string>
-    <string name="title_force_stop_all_confirmation">Force stop all processes?</string>
-    <string name="title_force_stop_all_processes">Force stop all processes</string>
-    <string name="title_force_stop_confirmation">Force stop?</string>
-    <string name="title_general">General</string>
-    <string name="title_haptic_feedback">Haptic feedback</string>
+    <string name="title_brand">ဘရန်း</string>
+    <string name="title_buttons">ခလုတ်များ</string>
+    <string name="title_choose_one">တစ်ခုရွေးပါ</string>
+    <string name="title_clear_cache">cache များ ရှင်းပါ</string>
+    <string name="title_clear_cache_size">cache များ ရှင်းပါ (%s)</string>
+    <string name="title_clear_data">Data အားလုံးရှင်းရန်</string>
+    <string name="title_clear_data_confirmation">Data အားလုံးဖျက်ရန် သေချာပါသလား?</string>
+    <string name="title_clear_logs">မှတ်တမ်းရှင်းရန်</string>
+    <string name="title_close_drawer">" Drawer ပိတ်ရန်"</string>
+    <string name="title_continuous_press_delay">ခလုတ်ဆက်တိုက်ဖိသည့် ကြာချိန်ညှိပါ</string>
+    <string name="title_copy">ကူးယူရန်</string>
+    <string name="title_cpu_info">CPU အသေးစိတ် အချက်အလက်</string>
+    <string name="title_cpu_usage">CPU အသုံးပြုမှု</string>
+    <string name="title_customize_control_buttons">ခလုတ်များ နေရာပြောင်းပါ</string>
+    <string name="title_data_path">Data နေရာ</string>
+    <string name="title_delete_device_confirmation">ဖျက်မှာ သေချာပါသလား?</string>
+    <string name="title_developer">ဆော့ဖ်ဝဲရေးသားသူ</string>
+    <string name="title_device">စက်</string>
+    <string name="title_device_info">စက်အကြောင်း</string>
+    <string name="title_devices">စက်များ</string>
+    <string name="title_disable_app">App ဖျောက်ရန်</string>
+    <string name="title_disable_app_confirmation">App ဖျောက်ရန် သေချာပါသလား?</string>
+    <string name="title_disable_haptic_on_release">"ခလုတ်လွှတ်လျှင် မတုန်ပါ "</string>
+    <string name="title_disabled">ပိတ်</string>
+    <string name="title_do_not_use_back_action">back ခလုတ် မသုံးပါ</string>
+    <string name="title_do_not_use_volume_buttons">အသံတိုးချဲ့ခလုတ် မသုံးပါ</string>
+    <string name="title_enable_app">App ပြန်ပြရန်</string>
+    <string name="title_enable_haptic_feedback">ခလုတ် တုန်ခါမှု ဖွင့်ပါ</string>
+    <string name="title_enable_logs">မှတ်တမ်းဖွင့်ရန်</string>
+    <string name="title_enable_pointers">Pointer ကို ဖွင့်ပါ</string>
+    <string name="title_enabled">ဖွင့်</string>
+    <string name="title_extra_buttons">အပိုခလုတ်များ</string>
+    <string name="title_favorite_apps">စိတ်ကြိုက် app များ</string>
+    <string name="title_file_path">ဖိုင်နေရာ</string>
+    <string name="title_filter">စစ်ထုတ်ရန်</string>
+    <string name="title_filter_apps">App များကို စစ်ထုတ်ပါ</string>
+    <string name="title_follow_on_facebook">Facebook page သို့ ဆက်သွယ်ရန်</string>
+    <string name="title_force_stop">ချက်ချင်းပိတ်ရန်</string>
+    <string name="title_force_stop_all_confirmation">Process အားလုံးပိတ်ရန် သေချာပါသလား?</string>
+    <string name="title_force_stop_all_processes">Process အားလုံး ချက်ချင်းပိတ်ရန်</string>
+    <string name="title_force_stop_confirmation">ချက်ချင်းပိတ်ရန် သေချာပါသလား?</string>
+    <string name="title_general">အထွေထွေ</string>
+    <string name="title_haptic_feedback">ခလုတ် တုန်ခါမှု</string>
     <string name="title_home">Home</string>
-    <string name="title_how_to_connect">How to connect?</string>
-    <string name="title_incremental" translatable="false">Incremental</string>
-    <string name="title_installation_time">Installation time</string>
-    <string name="title_ip_address" translatable="false">IP address</string>
-    <string name="title_join_telegram_channel">Join Telegram channel</string>
-    <string name="title_keyboard">Keyboard</string>
-    <string name="title_language">Language</string>
-    <string name="title_last_update_time">Last update time</string>
-    <string name="title_logs">Logs</string>
-    <string name="title_manage_apps">Manage apps</string>
-    <string name="title_manage_processes">Manage processes</string>
-    <string name="title_manufacturer">Manufacturer</string>
+    <string name="title_how_to_connect">ဘယ်လို ချိတ်ရမလဲ?</string>
+    <string name="title_installation_time">Install လုပ်ခဲ့သောအချိန်</string>
+    <string name="title_join_telegram_channel">Telegram channel သို့ ဆက်သွယ်ရန်</string>
+    <string name="title_keyboard">ကီးဘုတ်</string>
+    <string name="title_language">ဘာသာစကား</string>
+    <string name="title_last_update_time">နောက်ဆုံး Update လုပ်ခဲ့သောအချိန်</string>
+    <string name="title_logs">မှတ်တမ်းများ</string>
+    <string name="title_manage_apps">App များ စီမံပါ</string>
+    <string name="title_manage_processes">Process များ စီမံပါ</string>
+    <string name="title_manufacturer">ထုတ်လုပ်သူ</string>
     <string name="title_memory">Memory</string>
-    <string name="title_memory_info">Memory info</string>
+    <string name="title_memory_info">Memory အသေးစိတ် အချက်အလက်</string>
     <string name="title_menu">Menu</string>
-    <string name="title_min_sdk" translatable="false">Minimum SDK</string>
-    <string name="title_model">Model</string>
-    <string name="title_move_end" translatable="false">End</string>
-    <string name="title_mute">Mute</string>
-    <string name="title_n_cpu_core" translatable="false">Core %d</string>
-    <string name="title_name">Name</string>
-    <string name="title_native_library_path">Native library path</string>
-    <string name="title_next">Next</string>
-    <string name="title_not_available">N/A</string>
-    <string name="title_notification_permission">Notification permission</string>
-    <string name="title_numpad">Numpad</string>
-    <string name="title_open_app">Open app</string>
-    <string name="title_open_app_info_settings">Open app info settings</string>
-    <string name="title_open_drawer">Open drawer</string>
-    <string name="title_open_in_local_play_store">Open in local Play Store</string>
-    <string name="title_open_in_play_store">Open in Play Store</string>
-    <string name="title_open_source_licenses">Open source licenses</string>
-    <string name="title_other_settings">Other settings</string>
-    <string name="title_package_name">Package name</string>
-    <string name="title_page_down" translatable="false">PgDn</string>
-    <string name="title_page_up" translatable="false">PgUp</string>
-    <string name="title_pairing_code" translatable="false">Pairing code</string>
-    <string name="title_pairing_port" translatable="false">Pairing port</string>
-    <string name="title_pause_ad">Pause Ad</string>
-    <string name="title_percent" translatable="false">%d%%</string>
-    <string name="title_performance">Performance</string>
-    <string name="title_permissions">Permissions</string>
-    <string name="title_play_pause">Play pause</string>
-    <string name="title_pointer_size">Pointer size</string>
-    <string name="title_port" translatable="false">Port</string>
-    <string name="title_power">Power</string>
-    <string name="title_premium_access">Premium access</string>
-    <string name="title_preview">Preview</string>
-    <string name="title_previous">Previous</string>
-    <string name="title_privacy_policy">Privacy Policy</string>
+    <string name="title_model">မော်ဒယ်</string>
+    <string name="title_mute">အသံပိတ်</string>
+    <string name="title_name">နာမည်</string>
+    <string name="title_native_library_path">Native library နေရာ</string>
+    <string name="title_next">နောက်တစ်ပုဒ်</string>
+    <string name="title_not_available">မသိရှိ</string>
+    <string name="title_notification_permission">Notification ခွင့်ပြုချက်</string>
+    <string name="title_numpad">နံပါတ်</string>
+    <string name="title_open_app">App ဖွင့်ရန်</string>
+    <string name="title_open_app_info_settings">TV မှ Info settings ဖွင့်ရန်</string>
+    <string name="title_open_drawer">Drawer ဖွင့်ရန်</string>
+    <string name="title_open_in_local_play_store">ဖုန်းမှ Play Store တွင် ဖွင့်ရန်</string>
+    <string name="title_open_in_play_store">TV မှ Play Store တွင် ဖွင့်ရန်</string>
+    <string name="title_open_source_licenses">အခမဲ့ ရင်းမြစ် လိုင်စင်များ</string>
+    <string name="title_other_settings">အခြား ဆက်တင်များ</string>
+    <string name="title_package_name">Package နာမည်</string>
+    <string name="title_pause_ad">ကြော်ငြာပိတ်ရန်</string>
+    <string name="title_performance">စွမ်းဆောင်ရည်</string>
+    <string name="title_permissions">ခွင့်ပြုချက်များ</string>
+    <string name="title_play_pause">ဖွင့်၊ ရပ်</string>
+    <string name="title_pointer_size">Pointer အရွယ်အစား</string>
+    <string name="title_power">ပါဝါ</string>
+    <string name="title_premium_access">ပရီမီယံ အသုံးပြုခွင့်</string>
+    <string name="title_preview">အစမ်းကြည့်ရှုမှု</string>
+    <string name="title_previous">ရှေ့တစ်ပုဒ်</string>
+    <string name="title_privacy_policy">"ကိုယ်ရေးအချက်အလက် မူဝါဒ "</string>
     <string name="title_processes">Processes</string>
-    <string name="title_promo_code">Promo code</string>
-    <string name="title_remove_from_fav_apps">Remove from favorite apps</string>
-    <string name="title_reset_adb_config">Reset ADB configurations</string>
-    <string name="title_reset_to_default">Reset to default</string>
+    <string name="title_promo_code">ပရိုမိုကုဒ်</string>
+    <string name="title_remove_from_fav_apps">စိတ်ကြိုက် app စာရင်းတွင် ဖယ်ရန်</string>
+    <string name="title_reset_adb_config">ADB စနစ်ကို reset လုပ်ပါ</string>
+    <string name="title_reset_to_default">မူလအတိုင်းထားရန်</string>
     <string name="title_screenshot">Screenshot</string>
-    <string name="title_sdk_version">SDK version</string>
-    <string name="title_search">Search</string>
-    <string name="title_search_apps">Search apps</string>
-    <string name="title_select_a_button">Select a button</string>
-    <string name="title_settings">Settings</string>
-    <string name="title_share">Share</string>
-    <string name="title_show_tooltip_on_buttons">Show tooltip on buttons</string>
-    <string name="title_sort_by_name_a_to_z">Sort by name A to Z</string>
-    <string name="title_sort_by_name_z_to_a">Sort by name Z to A</string>
-    <string name="title_stop">Stop</string>
-    <string name="title_supported">Supported</string>
-    <string name="title_supported_abi">Supported ABIs</string>
-    <string name="title_system" translatable="false">System</string>
-    <string name="title_target_sdk" translatable="false">Target SDK</string>
-    <string name="title_tcp_ip_port" translatable="false">TCP-IP port</string>
-    <string name="title_terms_of_service">Terms of Service</string>
+    <string name="title_sdk_version">SDK ဗားရှင်း</string>
+    <string name="title_search">ရှာရန်</string>
+    <string name="title_search_apps">App များ ရှာရန်</string>
+    <string name="title_select_a_button">ခလုတ်ရွေးပါ</string>
+    <string name="title_settings">ဆက်တင်များ</string>
+    <string name="title_share">ဝေမျှရန်</string>
+    <string name="title_show_tooltip_on_buttons">ခလုတ်များတွင် အကြံပြုစာ ပြပါ</string>
+    <string name="title_sort_by_name_a_to_z">A မှ Z အတိုင်း စီရန်</string>
+    <string name="title_sort_by_name_z_to_a">Z မှ A အတိုင်း စီရန်</string>
+    <string name="title_stop">ရပ်ရန်</string>
+    <string name="title_supported">ရ</string>
+    <string name="title_supported_abi">ထောက်ပံ့ပေးသော ABI များ</string>
+    <string name="title_terms_of_service">ဝန်ဆောင်မှု စည်းမျဥ်းများ</string>
     <string name="title_trackpad">Trackpad</string>
-    <string name="title_trackpad_sensitivity">Trackpad sensitivity</string>
-    <string name="title_uninstall_app">Uninstall app</string>
-    <string name="title_uninstall_app_confirmation">Uninstall now?</string>
-    <string name="title_unknown_model">Unknown model</string>
-    <string name="title_use_dynamic_color">Use dynamic color</string>
-    <string name="title_use_physical_buttons">Use physical buttons</string>
-    <string name="title_use_vibrator_api_for_haptic">Use Vibrator API for Haptic</string>
-    <string name="title_user" translatable="false">User</string>
-    <string name="title_user_id" translatable="false">User ID (UID)</string>
-    <string name="title_user_interface">User interface</string>
-    <string name="title_version_code">Version code</string>
-    <string name="title_version_name">Version name</string>
-    <string name="title_visit_website">Visit website</string>
-    <string name="title_volume_down">Volume down</string>
-    <string name="title_volume_up">Volume up</string>
-    <string name="title_what_is_it">What is it?</string>
-    <string name="title_wifi_pairing_mode">Wi-Fi pairing mode (Experimental)</string>
-    <string name="wait_n_seconds">%d seconds</string>
+    <string name="title_trackpad_sensitivity">Trackpad မြန်နှုန်း</string>
+    <string name="title_uninstall_app">Uninstall လုပ်ရန်</string>
+    <string name="title_uninstall_app_confirmation">Uninstall လုပ်ရန် သေချာပါသလား?</string>
+    <string name="title_unknown_model">အမည်မသိ စက်</string>
+    <string name="title_use_default_adb_server_token">Default adb server token ကို သုံးပါ</string>
+    <string name="title_use_dynamic_color">နောက်ခံအရောင်ကို သုံးပါ</string>
+    <string name="title_use_physical_buttons">ဖုန်း၏ခလုတ်များကို သုံးပါ</string>
+    <string name="title_use_vibrator_api_for_haptic">တုန်ခါမှုစနစ် ပြောင်းသုံးပါ</string>
+    <string name="title_user_interface">အသွင်အပြင်များ</string>
+    <string name="title_version_code">ဗားရှင်း ကုဒ်</string>
+    <string name="title_version_name">ဗားရှင်း နာမည်</string>
+    <string name="title_visit_website">ဝဘ်ဆိုဒ်သို့ သွားရန်</string>
+    <string name="title_volume_down">အသံတိုး</string>
+    <string name="title_volume_up">အသံချဲ့</string>
+    <string name="title_what_is_it">ဘယ်လိုမျိုးလဲ</string>
+    <string name="title_wifi_pairing_mode">Wi-Fi pairing စနစ် (စမ်းသပ်ဆဲ)</string>
+    <string name="wait_n_seconds">%d စက္ကန့်</string>
 </resources>

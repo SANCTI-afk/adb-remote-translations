@@ -15,6 +15,7 @@
     <string name="btn_next">ရှေ့သို့</string>
     <string name="btn_ok">အိုကေ</string>
     <string name="btn_previous">နောက်သို့</string>
+    <string name="btn_randomize">ကျပမ်းပြောင်းရန်</string>
     <string name="btn_rate_app">မှတ်ချက်ပေးရန်</string>
     <string name="btn_reconnect">ပြန်ချိတ်ရန်</string>
     <string name="btn_reset">Reset လုပ်ရန်</string>
@@ -27,25 +28,47 @@
     <string name="btn_unbind">ပြန်ဖြုတ်ရန်</string>
     <string name="btn_update">Update လုပ်ရန်</string>
     <string name="btn_watch">ကြည့်ရန်</string>
-    <string name="err_connection_timeout">ချိတ်ဆက်မှု အချိန်ကျော်လွန်သွားပါသည်။ ကျေးဇူးပြု၍ ပြန်ချိတ်ပါ။</string>
-    <string name="err_connection_timeout_multiple_times">ချိတ်ဆက်မှု အချိန်ကျော်လွန်သွားပါသည်။ ကျေးဇူးပြု၍ IP လိပ်စာနှင့် Port နံပါတ်များ မှန်၊ မမှန် ပြန်စစ်ပါ။ ချိတ်မရ ဖြစ်နေသေးလျှင် app ကို recent ထဲမှ ရှင်းပြီး ပြန်ဖွင့်ခြင်း သို့မဟုတ် ဖုန်းကို reboot ချခြင်းတို့ လုပ်ဆောင်ပြီး ပြန်ချိတ်ပါ။</string>
+    <string name="err_connection_timeout">ချိတ်ဆက်မှု အချိန်ကျော်လွန်သွားပါသည်။ ကျေးဇူးပြု၍
+        ပြန်ချိတ်ပါ။</string>
+    <string name="err_connection_timeout_multiple_times">ချိတ်ဆက်မှု အချိန်ကျော်လွန်သွားပါသည်။
+        ကျေးဇူးပြု၍ IP လိပ်စာနှင့် Port နံပါတ်များ မှန်၊ မမှန် ပြန်စစ်ပါ။ ချိတ်မရ ဖြစ်နေသေးလျှင် app
+        ကို recent ထဲမှ ရှင်းပြီး ပြန်ဖွင့်ခြင်း သို့မဟုတ် ဖုန်းကို reboot ချခြင်းတို့ လုပ်ဆောင်ပြီး
+        ပြန်ချိတ်ပါ။</string>
     <string name="err_device_unreachable">စက်နှင့် ချိတ်ဆက်၍ မရပါ။ နောက်တစ်ကြိမ် ပြန်ချိတ်ကြည့်ပါ။</string>
     <string name="err_empty_device_name">နာမည် မထည့်ရသေးပါ။</string>
     <string name="err_failed_to_connect">ဆာဗာသို့ ချိတ်ဆက်၍မရပါ။</string>
-    <string name="err_fetching_terms">ဆာဗာသို့ ချိတ်ဆက်၍ မရသောကြောင့် ကျေးဇူးပြု၍ website သို့ တိုက်ရိုက်ဝင်ရောက်ကြည့်ရှုပေးပါ။</string>
+    <string name="err_fetching_terms">ဆာဗာသို့ ချိတ်ဆက်၍ မရသောကြောင့် ကျေးဇူးပြု၍ website သို့
+        တိုက်ရိုက်ဝင်ရောက်ကြည့်ရှုပေးပါ။</string>
+    <string name="err_invalid_adb_server_token">Token မှားနေပါသည်။</string>
     <string name="err_invalid_ip_address">IP လိပ်စာ မှားသည်။</string>
     <string name="err_invalid_pairing_code">Pairing code မှားသည်။</string>
     <string name="err_invalid_port">Port နံပါတ် မှားသည်။</string>
     <string name="err_invalid_promo_code">ပရိုမိုကုဒ် မမှန်ကန်ပါ။</string>
     <string name="err_save_screenshot_failed">Screenshot သိမ်းဆည်းမရပါ။</string>
     <string name="err_setting_tcp_ip_mode">TCP-IP စနစ်ပြောင်းခြင်း မအောင်မြင်ပါ။</string>
-    <string name="err_too_many_requests">အသုံးပြုရန် တောင်းဆိုမှု များလွန်းသောကြောင့် နောက်မှ ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="err_too_many_requests">အသုံးပြုရန် တောင်းဆိုမှု များလွန်းသောကြောင့် နောက်မှ
+        ထပ်စမ်းကြည့်ပါ။</string>
     <string name="err_unexpected">မထင်မှတ်သော ပြဿနာ ဖြစ်ခဲ့သည်။</string>
-    <string name="hint_customize_control_buttons">ခလုတ်များကို စိတ်ကြိုက် နေရာရွှေ့ပြောင်းနိုင်ပါသည်။\n\n၁။ ပြောင်းချင်သော ခလုတ်ကို နှိပ်ပါ။\n၂။ ထည့်သွင်းနိုင်သော ခလုတ်များ ပေါ်လာပါမည်။ နှစ်သက်ရာခလုတ်ကို ရွေးပြီး ပြောင်းပါ။</string>
-    <string name="msg_adb_reset_guide">User ပြင်ဆင်ထားသော ဆက်တင်များကို မဖျက်ပါ။ လက်ရှိ ချိတ်ဆက်ထားသော ADB connection ကို ဖြုတ်ပါမည်။ ADB စနစ်ကို reset လုပ်မည်ဖြစ်ပြီး ချိတ်ဆက်ပြီးသား စက်များ အပါအဝင် စိတ်ကြိုက် app စာရင်းများကို ဖျက်ပါမည်။ Reset လုပ်ပြီးသွားလျှင် ပြန်လည်ချိတ်ဆက်ရန် လိုပါသည်။\n\nချိတ်မရသော ပြဿနာ ဆက်ဖြစ်နေသေးပါက အောက်ပါအတိုင်း လုပ်ဆောင်ကြည့်ပေးပါ။\n\n- app ကို recent ထဲမှ ရှင်းပြီး ပြန်ဝင်ကြည့်ပါ။\n- ယခု ဖုန်းကို reboot လုပ်ကြည့်ပါ။\n- app ကို ဖျက်ပြီး install ပြန်လုပ်ကြည့်ပါ။\n\nအထက်ပါနည်းများအားလုံး လုပ်ဆောင်ပြီး အဆင်မပြေသေးပါက developer သို့ ဆက်သွယ် အကြောင်းကြားနိုင်ပါသည်။</string>
+    <string name="hint_customize_control_buttons">ခလုတ်များကို စိတ်ကြိုက်
+        နေရာရွှေ့ပြောင်းနိုင်ပါသည်။\n\n၁။ ပြောင်းချင်သော ခလုတ်ကို နှိပ်ပါ။\n၂။ ထည့်သွင်းနိုင်သော
+        ခလုတ်များ ပေါ်လာပါမည်။ နှစ်သက်ရာခလုတ်ကို ရွေးပြီး ပြောင်းပါ။</string>
+    <string name="msg_adb_reset_guide">User ပြင်ဆင်ထားသော ဆက်တင်များကို မဖျက်ပါ။ လက်ရှိ
+        ချိတ်ဆက်ထားသော ADB connection ကို ဖြုတ်ပါမည်။ ADB စနစ်ကို reset လုပ်မည်ဖြစ်ပြီး
+        ချိတ်ဆက်ပြီးသား စက်များ အပါအဝင် စိတ်ကြိုက် app စာရင်းများကို ဖျက်ပါမည်။ Reset
+        လုပ်ပြီးသွားလျှင် ပြန်လည်ချိတ်ဆက်ရန် လိုပါသည်။\n\nချိတ်မရသော ပြဿနာ ဆက်ဖြစ်နေသေးပါက
+        အောက်ပါအတိုင်း လုပ်ဆောင်ကြည့်ပေးပါ။\n\n- app ကို recent ထဲမှ ရှင်းပြီး ပြန်ဝင်ကြည့်ပါ။\n-
+        ယခု ဖုန်းကို reboot လုပ်ကြည့်ပါ။\n- app ကို ဖျက်ပြီး install
+        ပြန်လုပ်ကြည့်ပါ။\n\nအထက်ပါနည်းများအားလုံး လုပ်ဆောင်ပြီး အဆင်မပြေသေးပါက developer သို့
+        ဆက်သွယ် အကြောင်းကြားနိုင်ပါသည်။</string>
+    <string name="msg_adb_server_token">ADB server token ကို စက်အချင်းချင်း လုံခြုံစွာ
+        ချိတ်ဆက်ရာတွင် အသုံးပြုပါသည်။ Android TV တစ်ခုတည်းကို ယခုဖုန်းအပြင် အခြားဖုန်းများနှင့်
+        တစ်ပြိုင်နက်တည်း ချိတ်ဆက်လိုပါက ယခုဖုန်းမှ token ကို ကူးယူပြီး အခြားဖုန်းများတွင် ထည့်ပေးရန်
+        လိုအပ်ပါသည်။ ကူးမထည့်လိုလျှင် ချိတ်ဆက်မည့် ဖုန်းအားလုံးတွင် \"Default ADB server token ကို
+        သုံးပါ\" option ကို ဖွင့်ပြီး ချိတ်ဆက်နိုင်ပါသည်။</string>
     <string name="msg_adb_service">ချိတ်ဆက်ထားပါသည်။</string>
     <string name="msg_added_to_fav_apps">စိတ်ကြိုက် app စာရင်းသို့ ထည့်လိုက်ပါပြီ။</string>
-    <string name="msg_allow_usb_debugging">"ချိတ်ဆက်နေသော စက်တွင် OK ကို နှိပ်ပြီး USB debugging ခွင့်ပြုချက်ပေးပါ။ "</string>
+    <string name="msg_allow_usb_debugging">"ချိတ်ဆက်နေသော စက်တွင် OK ကို နှိပ်ပြီး USB debugging
+        ခွင့်ပြုချက်ပေးပါ။ "</string>
     <string name="msg_app_data_cleared">"%s app ၏ data များကို ဖျက်လိုက်ပါပြီ။ "</string>
     <string name="msg_app_disabled">%s app ကို ဖျောက်လိုက်ပါပြီ။</string>
     <string name="msg_app_enabled">%s app ကို ပြန်ပြလိုက်ပါပြီ။</string>
@@ -56,61 +79,114 @@
     <string name="msg_app_uninstalled">%s app ကို uninstall လုပ်လိုက်ပါပြီ။</string>
     <string name="msg_cache_cleared">%s နေရာ လွတ်သွားပါပြီ။</string>
     <string name="msg_changing_tcp_ip_mode">ချိတ်ဆက်ပြီးပါပြီ။ TCP-IP စနစ် ပြောင်းနေပါသည် …</string>
-    <string name="msg_changing_tcp_ip_mode_takes_too_long">"ချိတ်ဆက်ပြီးပါပြီ။ TCP-IP စနစ် ပြောင်းနေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ ရှင်းပြီး ပြန်ချိတ်ပါ။ "</string>
+    <string name="msg_changing_tcp_ip_mode_takes_too_long">"ချိတ်ဆက်ပြီးပါပြီ။ TCP-IP စနစ်
+        ပြောင်းနေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ
+        ရှင်းပြီး ပြန်ချိတ်ပါ။ "</string>
     <string name="msg_character_not_supported">\'%s\' စာလုံးကို လက်ရှိတွင် ရိုက်မရသေးပါ။</string>
-    <string name="msg_clear_cache">"App icon များနှင့် ADB log များကဲ့သို့သော cache အားလုံးကို ရှင်းပစ်ပါမည်။ "</string>
-    <string name="msg_clear_data_confirmation">"app ရှိ ဖိုင်များ၊ ဆက်တင်များ၊ အကောင့် data များ နှင့် ယာယီ data (cache) များအပါအဝင် app ၏ data အားလုံး အပြီးအပိုင် ပျက်သွားပါမည်။ "</string>
+    <string name="msg_clear_cache">"App icon များနှင့် ADB log များကဲ့သို့သော cache အားလုံးကို
+        ရှင်းပစ်ပါမည်။ "</string>
+    <string name="msg_clear_data_confirmation">"app ရှိ ဖိုင်များ၊ ဆက်တင်များ၊ အကောင့် data များ
+        နှင့် ယာယီ data (cache) များအပါအဝင် app ၏ data အားလုံး အပြီးအပိုင် ပျက်သွားပါမည်။ "</string>
     <string name="msg_connect_after_paired">ဆက်သွယ်ပြီးပါပြီ။ ချိတ်ဆက်နေပါသည် …</string>
-    <string name="msg_connect_after_paired_takes_too_long">ချိတ်ဆက်နေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ ရှင်းပြီး ပြန်ချိတ်ပါ။</string>
+    <string name="msg_connect_after_paired_takes_too_long">ချိတ်ဆက်နေပါသည် … ၊ အချိန်ကြာနေလျှင်
+        ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ ရှင်းပြီး ပြန်ချိတ်ပါ။</string>
     <string name="msg_connect_to_a_device">ချိတ်ဆက်ရန်</string>
     <string name="msg_connected_to">%s နှင့် ချိတ်ဆက်ထားသည်</string>
     <string name="msg_connecting_to">%s နှင့် ချိတ်ဆက်နေသည် …</string>
-    <string name="msg_contribute_translations">မြင်ချင်သော ဘာသာစကား ရှာမတွေ့လျှင် သို့မဟုတ် ပိုမိုကောင်းမွန်အောင် ဖြည့်စွက်ပြင်ဆင်လိုလျှင် ကျေးဇူးပြု၍ GitHub repository တွင် ဘာသာပြန်၍ ပါဝင်ကူညီနိုင်ပါသည်။</string>
+    <string name="msg_contribute_translations">မြင်ချင်သော ဘာသာစကား ရှာမတွေ့လျှင် သို့မဟုတ်
+        ပိုမိုကောင်းမွန်အောင် ဖြည့်စွက်ပြင်ဆင်လိုလျှင် ကျေးဇူးပြု၍ GitHub repository တွင် ဘာသာပြန်၍
+        ပါဝင်ကူညီနိုင်ပါသည်။</string>
     <string name="msg_copied_to_clipboard">Clipboard သို့ ကူးပြီးပါပြီ။</string>
-    <string name="msg_delete_device_confirmation">ဖျက်လျှင် ဤစက်အတွက် မှတ်ထားသော စိတ်ကြိုက် app စာရင်းပါ ပျက်ပါမည်။</string>
-    <string name="msg_disable_app_confirmation">ယခု app ကို ဖျောက်လိုက်လျှင် (disable လုပ်လိုက်လျှင်) Android နှင့် အခြား app များ ပုံမှန်အလုပ်လုပ်ခြင်းကို အဟန့်အတား ဖြစ်ကောင်း ဖြစ်စေနိုင်ပါသည်။</string>
+    <string name="msg_delete_device_confirmation">ဖျက်လျှင် ဤစက်အတွက် မှတ်ထားသော စိတ်ကြိုက် app
+        စာရင်းပါ ပျက်ပါမည်။</string>
+    <string name="msg_disable_app_confirmation">ယခု app ကို ဖျောက်လိုက်လျှင် (disable
+        လုပ်လိုက်လျှင်) Android နှင့် အခြား app များ ပုံမှန်အလုပ်လုပ်ခြင်းကို အဟန့်အတား ဖြစ်ကောင်း
+        ဖြစ်စေနိုင်ပါသည်။</string>
     <string name="msg_disconnecting_devices">ချိတ်ဆက်မှု ဖြုတ်နေသည် …</string>
-    <string name="msg_editing_ip_port_warning">IP လိပ်စာ သို့မဟုတ် port ကို ပြင်ဆင်လျှင် ချိတ်မရ ဖြစ်တတ်ပါသည်။ ကျေးဇူးပြု၍ သေချာပြင်ဆင်ပါ၊  သို့မဟုတ် ဖျက်ပြီး ပြန်ချိတ်ကြည့်ပါ။</string>
+    <string name="msg_editing_ip_port_warning">IP လိပ်စာ သို့မဟုတ် port ကို ပြင်ဆင်လျှင် ချိတ်မရ
+        ဖြစ်တတ်ပါသည်။ ကျေးဇူးပြု၍ သေချာပြင်ဆင်ပါ၊ သို့မဟုတ် ဖျက်ပြီး ပြန်ချိတ်ကြည့်ပါ။</string>
     <string name="msg_empty">ဘာမှ မရှိပါ။</string>
-    <string name="msg_failed_to_authenticate">ချိတ်ဆက်မရပါ။ ချိတ်ဆက်နေသော စက်တွင် USB debugging ကို ခွင့်ပြုပေးပါ။</string>
+    <string name="msg_failed_to_authenticate">ချိတ်ဆက်မည့် စက်တွင် USB debugging ကို ခွင့်ပြုပေးပြီး
+        ပြန်ချိတ်ပါ။ Always allow from this computer ကို အမှန်ခြစ်ပြီး OK ကို နှိပ်ရပါမည်။</string>
     <string name="msg_failed_to_launch_url">Link ဖွင့်ရန် app မတွေ့ပါ။</string>
-    <string name="msg_force_stop_all_confirmation">လက်ရှိ run နေသော process များကို ရပ်ပစ်လျှင် ၎င်း app များ၏ လုပ်ဆောင်ချက်များ ချက်ချင်းရပ်တန့်သွားမည် ဖြစ်ပြီး system အား မတည်မငြိမ် ဖြစ်စေနိုင်ပါသည်။ စစ်ထုတ်ထားသော process များကိုသာ ရပ်တန့်မည် ဖြစ်သည်။</string>
-    <string name="msg_force_stop_confirmation">App တစ်ခုကို ချက်ချင်းပိတ်လိုက်ပါက ၎င်း app ၏ လုပ်ဆောင်ချက်များ ချက်ချင်းရပ်တန့်သွားပါမည်။</string>
+    <string name="msg_force_stop_all_confirmation">လက်ရှိ run နေသော process များကို ရပ်ပစ်လျှင် ၎င်း
+        app များ၏ လုပ်ဆောင်ချက်များ ချက်ချင်းရပ်တန့်သွားမည် ဖြစ်ပြီး system အား မတည်မငြိမ်
+        ဖြစ်စေနိုင်ပါသည်။ စစ်ထုတ်ထားသော process များကိုသာ ရပ်တန့်မည် ဖြစ်သည်။</string>
+    <string name="msg_force_stop_confirmation">App တစ်ခုကို ချက်ချင်းပိတ်လိုက်ပါက ၎င်း app ၏
+        လုပ်ဆောင်ချက်များ ချက်ချင်းရပ်တန့်သွားပါမည်။</string>
     <string name="msg_force_stopped_processes">Processes များကို ချက်ချင်းပိတ်ပစ်လိုက်ပါပြီ။</string>
     <string name="msg_got_promo_code">ပရိုမိုကုဒ်တစ်ခု ရထားပါသလား?</string>
-    <string name="msg_keyboard_info">Shift, Ctrl နှင့် Alt ကီးများကို သုံး၍ ကီးအတွဲများ ပို့နိုင်ပါသည်။ သို့သော် လက်ရှိတွင် ကီးအတွဲ ၂ ခုသာ ပို့နိုင်ပါသည်။\nဥပမာ။\n\n– Ctrl + A\n– Ctrl + C\n– Ctrl + V\n– Ctrl + T\n– Alt + D\n– Alt + Left arrow စသည် ..\n\nအစမ်းကြည့်ရှုမှုတွင် မြင်ရသောစာသည် ချိတ်ထားသောစက်မှ စာနှင့် ကွဲလွဲနိုင်သည်ကို သတိပြုစေလိုပါသည်။ လက်ရှိချိတ်ထားသော စက်မှ စာများကို တိုက်ရိုက်မရယူနိုင်သောကြောင့် ဖြစ်ပါသည်။ \nအစမ်းကြည့်ရှုမှုမှ cursor ကို ရွှေ့နိုင်ပါသည်၊ သို့သော် ၎င်းအပေါ်၌ စာသားရွေးချယ်မှု (text selection) ကို လက်ရှိတွင် ခွင့်မပြုထားသေးပါ။ ယခုစက်တွင် စာသားရွေးချယ်လိုက်လျှင် ချိတ်ထားသော စက်တွင်လည်း စာသားရွေးချယ်သွားသင့်သော်လည်း အမှန်တကယ် စာသားအပြည့်အစုံကို မရယူနိုင်သဖြင့်  ရွေးချယ်မှု မှားယွင်းနိုင်သောကြောင့်ဖြစ်သည်။ Ctrl+A နှင့် Ctrl+V ကဲ့သို့ ကီးအတွဲများကို နှိပ်လျှင်လည်း ထိုနည်းအတိုင်းပင် ဖြစ်သည်။ ထို့ကြောင့် အစမ်းကြည့်ရှုမှုတွင် စာများ ကွဲလွဲနိုင်ခြင်း ဖြစ်ပါသည်။ ADB ၏ ကန့်သတ်ချက်များကြောင့် လက်ရှိတွင် printable ASCII စာလုံးများ (a မှ Z, 0 မှ 9 နှင့် symbol အချို့) ကိုသာ ရိုက်နိုင်ပါသေးသည်။</string>
-    <string name="msg_logs_empty">မှတ်တမ်းများ မရှိသေးပါ။ မှတ်တမ်း ကြည့်ရှုနိုင်ရန် မှတ်တမ်းကို ဖွင့်ပြီး စက်ဖြင့် ချိတ်ကြည့်ပါ။</string>
+    <string name="msg_keyboard_info">Shift, Ctrl နှင့် Alt ကီးများကို သုံး၍ ကီးအတွဲများ
+        ပို့နိုင်ပါသည်။ သို့သော် လက်ရှိတွင် ကီးအတွဲ ၂ ခုသာ ပို့နိုင်ပါသည်။\nဥပမာ။\n\n– Ctrl + A\n–
+        Ctrl + C\n– Ctrl + V\n– Ctrl + T\n– Alt + D\n– Alt + Left arrow စသည်
+        ..\n\nအစမ်းကြည့်ရှုမှုတွင် မြင်ရသောစာသည် ချိတ်ထားသောစက်မှ စာနှင့် ကွဲလွဲနိုင်သည်ကို
+        သတိပြုစေလိုပါသည်။ လက်ရှိချိတ်ထားသော စက်မှ စာများကို တိုက်ရိုက်မရယူနိုင်သောကြောင့် ဖြစ်ပါသည်။
+        \nအစမ်းကြည့်ရှုမှုမှ cursor ကို ရွှေ့နိုင်ပါသည်၊ သို့သော် ၎င်းအပေါ်၌ စာသားရွေးချယ်မှု (text
+        selection) ကို လက်ရှိတွင် ခွင့်မပြုထားသေးပါ။ ယခုစက်တွင် စာသားရွေးချယ်လိုက်လျှင် ချိတ်ထားသော
+        စက်တွင်လည်း စာသားရွေးချယ်သွားသင့်သော်လည်း အမှန်တကယ် စာသားအပြည့်အစုံကို မရယူနိုင်သဖြင့်
+        ရွေးချယ်မှု မှားယွင်းနိုင်သောကြောင့်ဖြစ်သည်။ Ctrl+A နှင့် Ctrl+V ကဲ့သို့ ကီးအတွဲများကို
+        နှိပ်လျှင်လည်း ထိုနည်းအတိုင်းပင် ဖြစ်သည်။ ထို့ကြောင့် အစမ်းကြည့်ရှုမှုတွင် စာများ
+        ကွဲလွဲနိုင်ခြင်း ဖြစ်ပါသည်။ ADB ၏ ကန့်သတ်ချက်များကြောင့် လက်ရှိတွင် printable ASCII
+        စာလုံးများ (a မှ Z, 0 မှ 9 နှင့် symbol အချို့) ကိုသာ ရိုက်နိုင်ပါသေးသည်။</string>
+    <string name="msg_logs_empty">မှတ်တမ်းများ မရှိသေးပါ။ မှတ်တမ်း ကြည့်ရှုနိုင်ရန် မှတ်တမ်းကို
+        ဖွင့်ပြီး စက်ဖြင့် ချိတ်ကြည့်ပါ။</string>
     <string name="msg_logs_info">မှတ်တမ်းများကို ဤစက်၌သာ သိမ်းဆည်းထားပါသည်။</string>
-    <string name="msg_memory_detail">သုံးနေဆဲ : %1$s (%2$d%%)\nလက်ကျန်: %3$s (%4$d%%)\nစုစုပေါင်း : %5$s</string>
+    <string name="msg_memory_detail">သုံးနေဆဲ : %1$s (%2$d%%)\nလက်ကျန်: %3$s (%4$d%%)\nစုစုပေါင်း :
+        %5$s</string>
     <string name="msg_no_connected_devices">ချိတ်ထားသော စက်များ မရှိပါ။</string>
     <string name="msg_no_reward_ad">ပြသရန် ကြော်ငြာ မရှိသေးပါသဖြင့် နောက်မှ ထပ်စမ်းကြည့်ပေးပါ။</string>
-    <string name="msg_notification_permission">မိမိစက်နှင့် ချိတ်ဆက်ထားကြောင်း notification ပြရန်နှင့် ချိတ်ဆက်မှု အလွယ်တကူ  ဖြုတ်နိုင်ရန် Notification ခွင့်ပြုချက် လိုအပ်ပါသည်။</string>
+    <string name="msg_notification_permission">မိမိစက်နှင့် ချိတ်ဆက်ထားကြောင်း notification
+        ပြရန်နှင့် ချိတ်ဆက်မှု အလွယ်တကူ ဖြုတ်နိုင်ရန် Notification ခွင့်ပြုချက် လိုအပ်ပါသည်။</string>
     <string name="msg_pairing_to">%s နှင့် ဆက်သွယ်နေသည် …</string>
-    <string name="msg_pause_ad_info">ကြော်ငြာ ဗီဒီယို အတိုတစ်ပုဒ် ကြည့်ရှုပြီး ပရီမီယံ ၁ ရက်စာ ရယူလိုက်ပါ။ ရယူပြီးလျှင် ကြော်ငြာအားလုံး ပျောက်သွားပါမည်။ ကြော်ငြာ ထပ်မံကြည့်ရှုပြီး ပရီမီယံ သက်တမ်းတိုးနိုင်ပါသည်။</string>
+    <string name="msg_pause_ad_info">ကြော်ငြာ ဗီဒီယို အတိုတစ်ပုဒ် ကြည့်ရှုပြီး ပရီမီယံ ၁ ရက်စာ
+        ရယူလိုက်ပါ။ ရယူပြီးလျှင် ကြော်ငြာအားလုံး ပျောက်သွားပါမည်။ ကြော်ငြာ ထပ်မံကြည့်ရှုပြီး ပရီမီယံ
+        သက်တမ်းတိုးနိုင်ပါသည်။</string>
     <string name="msg_premium_access_ends_on">%s တွင် ပရီမီယံ အသုံးပြုခွင့်ကုန်ဆုံးပါမည်။</string>
-    <string name="msg_premium_access_lifetime">ဂုဏ်ယူပါသည်။ တစ်သက်တာ ပရီမီယံအသုံးပြုခွင့် ရရှိထားပါသည်။</string>
+    <string name="msg_premium_access_lifetime">ဂုဏ်ယူပါသည်။ တစ်သက်တာ ပရီမီယံအသုံးပြုခွင့်
+        ရရှိထားပါသည်။</string>
     <string name="msg_prepare_after_connected">ချိတ်ဆက်ပြီးပါပြီ။ အဆင်သင့်ဖြစ်ရန် ပြင်ဆင်နေပါသည် …</string>
-    <string name="msg_prepare_after_connected_takes_too_long">"ချိတ်ဆက်ပြီးပါပြီ။ အဆင်သင့်ဖြစ်ရန် ပြင်ဆင်နေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ ရှင်းပြီး ပြန်ချိတ်ပါ။ "</string>
-    <string name="msg_prepare_after_tcp_ip_mode">TCP-IP စနစ် ပြောင်းပြီးပါပြီ။ TCP-IP ဖြင့် ပြန်ချိတ်နေပါသည် …</string>
-    <string name="msg_preview_warning">ဤတွင် မြင်ရသောစာသည် ချိတ်ထားသောစက်မှ စာနှင့် ကွဲလွဲနိုင်ပါသည်။</string>
-    <string name="msg_rate_app">အသုံးပြုမှုအတွက် ကျေးဇူး အထူးတင်ရှိပါသည်။\n\napp ကို နှစ်သက်လျှင် Play Store တွင် အဆင့်သတ်မှတ်ပြီး မှတ်ချက်ပေးနိုင်ပါသည်။ အသုံးပြုရာတွင် ပြဿနာ တစ်ခုခုရှိပါက အကြံပြုချက်များ ပေးပို့ရန် မေတ္တာရပ်ခံအပ်ပါသည်။</string>
+    <string name="msg_prepare_after_connected_takes_too_long">"ချိတ်ဆက်ပြီးပါပြီ။ အဆင်သင့်ဖြစ်ရန်
+        ပြင်ဆင်နေပါသည် … ၊ အချိန်ကြာနေလျှင် ပြန်ချိတ်ကြည့်ပါ၊ သို့မဟုတ် app ကို recent ထဲမှ
+        ရှင်းပြီး ပြန်ချိတ်ပါ။ "</string>
+    <string name="msg_prepare_after_tcp_ip_mode">TCP-IP စနစ် ပြောင်းပြီးပါပြီ။ TCP-IP ဖြင့်
+        ပြန်ချိတ်နေပါသည် …</string>
+    <string name="msg_preview_warning">ဤတွင် မြင်ရသောစာသည် ချိတ်ထားသောစက်မှ စာနှင့်
+        ကွဲလွဲနိုင်ပါသည်။</string>
+    <string name="msg_rate_app">အသုံးပြုမှုအတွက် ကျေးဇူး အထူးတင်ရှိပါသည်။\n\napp ကို နှစ်သက်လျှင်
+        Play Store တွင် အဆင့်သတ်မှတ်ပြီး မှတ်ချက်ပေးနိုင်ပါသည်။ အသုံးပြုရာတွင် ပြဿနာ တစ်ခုခုရှိပါက
+        အကြံပြုချက်များ ပေးပို့ရန် မေတ္တာရပ်ခံအပ်ပါသည်။</string>
     <string name="msg_removed_from_fav_apps">စိတ်ကြိုက် app စာရင်းမှ ဖယ်လိုက်ပါပြီ။</string>
     <string name="msg_screenshot_saved">Screenshot ကို သိမ်းပြီးပါပြီ။</string>
-    <string name="msg_share_app">ADB Remote app ဖြင့် Android TV ကို စိတ်တိုင်းကျ ထိန်းချုပ်အသုံးပြုလိုက်ပါ။ Play Store သို့မဟုတ် အောက်ပါလင့်ခ်မှတဆင့် အခမဲ့ ရယူနိုင်ပါသည်။\n\n%s\n\n#adbRemote</string>
-    <string name="msg_text_selection_not_supported">စာသားရွေးချယ်မှုကို လက်ရှိတွင် ခွင့်မပြုထားသေးပါ။</string>
-    <string name="msg_unbind_promo_notice">အသုံးပြုထားသော ပရိုမိုကုဒ်ကို ဖယ်ရှားမည်ဖြစ်ပြီး ဤစက် သို့မဟုတ် အခြားစက်တွင် ပြန်လည်အသုံးပြုနိုင်ပါသည်။</string>
-    <string name="msg_uninstall_app_confirmation">Uninstall လုပ်လျှင် app ၏ data များ အားလုံး ပျက်ပါမည်။</string>
+    <string name="msg_share_app">ADB Remote app ဖြင့် Android TV ကို စိတ်တိုင်းကျ
+        ထိန်းချုပ်အသုံးပြုလိုက်ပါ။ Play Store သို့မဟုတ် အောက်ပါလင့်ခ်မှတဆင့် အခမဲ့
+        ရယူနိုင်ပါသည်။\n\n%s\n\n#adbRemote</string>
+    <string name="msg_text_selection_not_supported">စာသားရွေးချယ်မှုကို လက်ရှိတွင်
+        ခွင့်မပြုထားသေးပါ။</string>
+    <string name="msg_unbind_promo_notice">အသုံးပြုထားသော ပရိုမိုကုဒ်ကို ဖယ်ရှားမည်ဖြစ်ပြီး ဤစက်
+        သို့မဟုတ် အခြားစက်တွင် ပြန်လည်အသုံးပြုနိုင်ပါသည်။</string>
+    <string name="msg_uninstall_app_confirmation">Uninstall လုပ်လျှင် app ၏ data များ အားလုံး
+        ပျက်ပါမည်။</string>
     <string name="msg_vpn_warning">VPN ဖွင့်ထားလျှင် ချိတ်မရဖြစ်တတ်သည်။</string>
-    <string name="msg_wifi_disconnected">ဖုန်းနှင့် ချိတ်မည့်စက် နှစ်ခုလုံးကို WiFi အတူတူ ချိတ်ထားပါ။</string>
-    <string name="summary_disable_haptic_feedback_on_release">ယခု option ကို ပိတ်ထားလျှင် ခလုတ်များကို နှိပ်ပြီး ပြန်ကြွသောအခါ တုန်ခါစေပါသည်</string>
-    <string name="summary_do_not_use_back_action">ယခု option ကို ပိတ်ထားလျှင် ချိတ်ဆက်ထားသော စက်ကို ဖုန်း၏ back ခလုတ်ဖြင့် back ထွက်နိုင်ပါသည်</string>
-    <string name="summary_do_not_use_volume_buttons">ယခု option ကို ပိတ်ထားလျှင် ချိတ်ဆက်ထားသော စက်ကို ဖုန်း၏ အသံတိုးချဲ့ ခလုတ်ဖြင့် အသံ တိုးချဲ့နိုင်ပါသည်</string>
+    <string name="msg_wifi_disconnected">ဖုန်းနှင့် ချိတ်မည့်စက် နှစ်ခုလုံးကို WiFi အတူတူ
+        ချိတ်ထားပါ။</string>
+    <string name="summary_disable_haptic_feedback_on_release">ယခု option ကို ပိတ်ထားလျှင်
+        ခလုတ်များကို နှိပ်ပြီး ပြန်ကြွသောအခါ တုန်ခါစေပါသည်</string>
+    <string name="summary_do_not_use_back_action">ယခု option ကို ပိတ်ထားလျှင် ချိတ်ဆက်ထားသော စက်ကို
+        ဖုန်း၏ back ခလုတ်ဖြင့် back ထွက်နိုင်ပါသည်</string>
+    <string name="summary_do_not_use_volume_buttons">ယခု option ကို ပိတ်ထားလျှင် ချိတ်ဆက်ထားသော
+        စက်ကို ဖုန်း၏ အသံတိုးချဲ့ ခလုတ်ဖြင့် အသံ တိုးချဲ့နိုင်ပါသည်</string>
     <string name="summary_enable_haptic_feedback">ခလုတ်များကို နှိပ်လျှင် တုန်ခါမှု ဖြစ်စေပါမည်</string>
     <string name="summary_open_source_licenses">အခမဲ့ ရင်းမြစ် ဆော့ဖ်ဝဲအတွက် လိုင်စင်အသေးစိတ်များ</string>
-    <string name="summary_reset_adb_config">"ADB စနစ်ကို reset လုပ်ခြင်းဖြင့် ချိတ်မရသော ပြဿနာများကို ဖြေရှင်းနိုင်ပါသည်</string>
+    <string name="summary_reset_adb_config">"ADB စနစ်ကို reset လုပ်ခြင်းဖြင့် ချိတ်မရသော
+        ပြဿနာများကို ဖြေရှင်းနိုင်ပါသည်</string>
+    <string name="summary_use_default_adb_server_token">စမ်းသပ်ရန်အတွက်သာဖြစ်ပြီး shared random
+        token ကိုသာ အသုံးပြုပါ။</string>
     <string name="summary_use_dynamic_color">Wallpaper ပုံများမှ အရောင်များကို အသုံးပြုပါ။</string>
-    <string name="summary_use_physical_buttons">ယခုဖုန်းနှင့် ပြင်ပကီးဘုတ်များ၏ ခလုတ်များကို အသုံးပြုပါ</string>
-    <string name="summary_use_vibrator_api_for_haptic">ခလုတ်များကို နှိပ်၍ မတုန်လျှင် တုန်ခါမှုစနစ် ပြောင်းသုံးပါ</string>
+    <string name="summary_use_physical_buttons">ယခုဖုန်းနှင့် ပြင်ပကီးဘုတ်များ၏ ခလုတ်များကို
+        အသုံးပြုပါ</string>
+    <string name="summary_use_vibrator_api_for_haptic">ခလုတ်များကို နှိပ်၍ မတုန်လျှင် တုန်ခါမှုစနစ်
+        ပြောင်းသုံးပါ</string>
+    <string name="title_adb_server_token">ADB server token</string>
     <string name="title_add_to_fav_apps">စိတ်ကြိုက် app စာရင်းတွင် ထည့်ရန်</string>
     <string name="title_all">အားလုံး</string>
     <string name="title_android_tv_support">Android TV ထောက်ပံ့မှု</string>
@@ -233,6 +309,7 @@
     <string name="title_uninstall_app">Uninstall လုပ်ရန်</string>
     <string name="title_uninstall_app_confirmation">Uninstall လုပ်ရန် သေချာပါသလား?</string>
     <string name="title_unknown_model">အမည်မသိ စက်</string>
+    <string name="title_use_default_adb_server_token">Default adb server token ကို သုံးပါ</string>
     <string name="title_use_dynamic_color">နောက်ခံအရောင်ကို သုံးပါ</string>
     <string name="title_use_physical_buttons">ဖုန်း၏ခလုတ်များကို သုံးပါ</string>
     <string name="title_use_vibrator_api_for_haptic">တုန်ခါမှုစနစ် ပြောင်းသုံးပါ</string>

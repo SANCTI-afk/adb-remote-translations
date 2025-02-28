@@ -29,14 +29,17 @@ We appreciate any contributions to translations for ADB Remote! Follow the steps
     | French  | values-fr  |
     | Russian  | values-ru  |
 
-    For more information about ISO 639 language codes, please refer to [this](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
+    For more information about ISO 639-1 language codes, please refer to [this](https://localizely.com/iso-639-1-list).
+
+    > **Note for Android 15 and above** \
+    Due to Open JDK 17 changes to language code handling, when using the Locale API, language codes for Hebrew, Yiddish, and Indonesian are no longer converted to their obsolete forms (Hebrew: iw, Yiddish: ji, and Indonesian: in). When specifying the language code for one of these locales, use the codes from ISO 639-1 instead (Hebrew: he, Yiddish: yi, and Indonesian: id). For more information about this issue, please refer to [this](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html#JDK-8263202).
 
 3. Translate the strings inside `strings.xml` and `arrays.xml` files in the newly created folder.
 
     > **IMPORTANT** : Delete every string marked with `translatable="false"`.
 
 4. After completing your translations, submit a Pull Request (PR) with the changes.
-5. Upon review and approval of the PR, the translations will be incorporated into a future update, **with contributors acknowledged in the credits section**.
+5. Upon review and approval of the PR, the translations will be incorporated into a future update, **with contributors acknowledged in the Acknowledgement section**.
 
 Thank you for contributing to making ADB Remote better for users around the world!
 

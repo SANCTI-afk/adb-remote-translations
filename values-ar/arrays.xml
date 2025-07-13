@@ -1,0 +1,33 @@
+<resources>
+    <!-- App Theme Preference -->
+    <string-array name="theme_entries">
+        <item>الإفتراضي للنظام</item>
+        <item>فاتح</item>
+        <item>داكن</item>
+    </string-array>
+
+    <!-- Language Preference -->
+    <string-array name="language_entries">
+        <item>الإنجليزية</item>
+        <item>الميانمارية</item>
+        <item>العربية</item>
+    </string-array>
+
+    <string-array name="root_folder_types">
+        <item>التخزين الداخلي</item>
+        <item>مسار مخصص</item>
+    </string-array>
+
+    <string-array name="apps_in_search_entries">
+        <item>كل التطبيقات</item>
+        <item>تطبيقات المستخدم</item>
+        <item>تطبيقات النظام</item>
+    </string-array>
+
+    <string-array name="btn_control_mode_entries">
+        <item>ADB socket (سريع)</item>
+        <item>ADB binary (مستقر)</item>
+        <item>ADB server (بديل)</item>
+    </string-array>
+
+</resources>

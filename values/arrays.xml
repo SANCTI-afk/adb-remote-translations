@@ -6,7 +6,7 @@
         <item>Dark</item>
     </string-array>
 
-    <string-array name="theme_values">
+    <string-array name="theme_values" translatable="false">
         <item>system</item>
         <item>light</item>
         <item>dark</item>
@@ -46,7 +46,7 @@
         <item>System apps</item>
     </string-array>
 
-    <string-array name="apps_in_search_values">
+    <string-array name="apps_in_search_values" translatable="false">
         <item>all</item>
         <item>user</item>
         <item>system</item>
@@ -58,7 +58,7 @@
         <item>ADB server (Alternative)</item>
     </string-array>
 
-    <string-array name="btn_control_mode_values">
+    <string-array name="btn_control_mode_values" translatable="false">
         <item>socket</item>
         <item>binary</item>
         <item>server</item>

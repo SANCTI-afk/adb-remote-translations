@@ -7,9 +7,9 @@
     </string-array>
 
     <string-array name="theme_values">
-        <item>system</item>
-        <item>light</item>
-        <item>dark</item>
+        <item>النظام</item>
+        <item>فاتح</item>
+        <item>داكن</item>
     </string-array>
 
     <!-- Language Preference -->
@@ -19,26 +19,9 @@
         <item>العربية</item>
     </string-array>
 
-    <string-array name="language_values" translatable="false">
-        <item>en</item>
-        <item>my</item>
-    </string-array>
-
     <string-array name="root_folder_types">
         <item>التخزين الداخلي</item>
         <item>مسار مخصص</item>
-    </string-array>
-
-    <string-array name="open_remotely_using" translatable="false">
-        <item>Shell</item>
-        <item>Normal intent</item>
-    </string-array>
-
-    <string-array name="mx_player_decode_modes" translatable="false">
-        <item>App default</item>
-        <item>HW decoder</item>
-        <item>SW decoder</item>
-        <item>HW+ decoder</item>
     </string-array>
 
     <string-array name="apps_in_search_entries">
@@ -54,9 +37,9 @@
     </string-array>
 
     <string-array name="btn_control_mode_entries">
-        <item>ADB socket (Fast)</item>
-        <item>ADB binary (Stable)</item>
-        <item>ADB server (Alternative)</item>
+        <item>ADB socket (سريع)</item>
+        <item>ADB binary (مستقر)</item>
+        <item>ADB server (بديل)</item>
     </string-array>
 
     <string-array name="btn_control_mode_values">

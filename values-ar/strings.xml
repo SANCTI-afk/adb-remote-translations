@@ -390,11 +390,11 @@
     <string name="title_use_physical_buttons">استخدام أزرار حقيقية</string>
     <string name="title_use_vibrator_api_for_haptic">Use Vibrator API for Haptic</string>
     <string name="title_user_interface">واجهة المستخدم</string>
-    <string name="title_username">اسم المستخدم</string>
-    <string name="title_version_code">رقم الاصدار</string>
-    <string name="title_version_name">اسم الاصدار</string>
-    <string name="title_visit_website">زيادة الموقع</string>
-    <string name="title_volume_down">خقض الصوت</string>
+    <string name="title_username">إسم المستخدم</string>
+    <string name="title_version_code">رقم الإصدار</string>
+    <string name="title_version_name">إسم الإصدار</string>
+    <string name="title_visit_website">زيارة الموقع</string>
+    <string name="title_volume_down">خفض الصوت</string>
     <string name="title_volume_up">رفع الصوت</string>
     <string name="title_what_is_it">ما هذا؟</string>
     <string name="title_what_is_new">ما الجديد</string>

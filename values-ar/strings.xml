@@ -17,8 +17,8 @@
     <string name="btn_get_clipboard">Get clipboard</string>
     <string name="btn_ignore_this_time">تجاهل هذه المرة</string>
     <string name="btn_import_from_clipboard">Import from clipboard</string>
-    <string name="btn_keep_both_files">إبقاء الملفين</string>
-    <string name="btn_learn_more">Learn more</string>
+    <string name="btn_keep_both_files">احتفظ بكلا الملفين</string>
+    <string name="btn_learn_more">معرفة المزيد</string>
     <string name="btn_next">التالي</string>
     <string name="btn_no">لا</string>
     <string name="btn_ok">نعم</string>

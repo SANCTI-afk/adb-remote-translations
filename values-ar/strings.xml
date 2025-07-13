@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">ADB Remote</string>
+    <string name="app_name">ADB ريموت</string>
 
-    <string name="btn_add_device">Add device</string>
-    <string name="btn_agree">Agree</string>
-    <string name="btn_apply">Apply</string>
-    <string name="btn_apply_icon_pack">Apply</string>
-    <string name="btn_apply_promo">Apply</string>
-    <string name="btn_cancel">Cancel</string>
-    <string name="btn_connect">Connect</string>
-    <string name="btn_delete">Delete</string>
-    <string name="btn_disagree">Disagree</string>
-    <string name="btn_download">Download</string>
-    <string name="btn_edit">Edit</string>
-    <string name="btn_export_to_clipboard">Export to clipboard</string>
+    <string name="btn_add_device">إضافة جهاز</string>
+    <string name="btn_agree">موافق</string>
+    <string name="btn_apply">تطبيق</string>
+    <string name="btn_apply_icon_pack">تطبيق</string>
+    <string name="btn_apply_promo">تطبيق</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_connect">توصيل</string>
+    <string name="btn_delete">حذف</string>
+    <string name="btn_disagree">رفض</string>
+    <string name="btn_download">تحميل</string>
+    <string name="btn_edit">تعديل</string>
+    <string name="btn_export_to_clipboard">تصدير إلي الحافظة</string>
     <string name="btn_get_clipboard">Get clipboard</string>
-    <string name="btn_ignore_this_time">Ignore this time</string>
+    <string name="btn_ignore_this_time">تجاهل هذه المرة</string>
     <string name="btn_import_from_clipboard">Import from clipboard</string>
-    <string name="btn_keep_both_files">Keep both files</string>
+    <string name="btn_keep_both_files">إبقاء الملفين</string>
     <string name="btn_learn_more">Learn more</string>
-    <string name="btn_next">Next</string>
-    <string name="btn_no">No</string>
-    <string name="btn_ok">OK</string>
-    <string name="btn_pause">Pause</string>
-    <string name="btn_previous">Previous</string>
-    <string name="btn_randomize">Randomize</string>
-    <string name="btn_rate_app">Rate app</string>
-    <string name="btn_reconnect">Reconnect</string>
-    <string name="btn_replace">Replace</string>
-    <string name="btn_reset">Reset</string>
-    <string name="btn_resume">Resume</string>
-    <string name="btn_save">Save</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_no">لا</string>
+    <string name="btn_ok">نعم</string>
+    <string name="btn_pause">إيقاف</string>
+    <string name="btn_previous">السابق</string>
+    <string name="btn_randomize">عشوائي</string>
+    <string name="btn_rate_app">قيم التطبيق</string>
+    <string name="btn_reconnect">إعادة الإتصال</string>
+    <string name="btn_replace">تبديل</string>
+    <string name="btn_reset">إعادة تهيئة</string>
+    <string name="btn_resume">متابعة</string>
+    <string name="btn_save">حفظ</string>
     <string name="btn_send_feedback">Send feedback</string>
     <string name="btn_set_clipboard">Set clipboard</string>
-    <string name="btn_share_app">Share app</string>
-    <string name="btn_skip">Skip</string>
-    <string name="btn_stop">Stop</string>
-    <string name="btn_translations">Translations</string>
-    <string name="btn_try_again">Try again</string>
-    <string name="btn_unbind">Unbind</string>
-    <string name="btn_update">Update</string>
-    <string name="btn_watch">Watch</string>
-    <string name="btn_yes">Yes</string>
+    <string name="btn_share_app">مشاركة التطبيق</string>
+    <string name="btn_skip">تخطي</string>
+    <string name="btn_stop">إيقاف</string>
+    <string name="btn_translations">ترجمات</string>
+    <string name="btn_try_again">حاول مجدداً</string>
+    <string name="btn_unbind">فك الربط</string>
+    <string name="btn_update">تحديث</string>
+    <string name="btn_watch">شاهد</string>
+    <string name="btn_yes">نعم</string>
 
     <string name="err_blank_fallback_root_folder">Fallback root folder is required.</string>
     <string name="err_blank_root_folder_path">Root folder path is required.</string>
@@ -55,7 +55,7 @@
     <string name="err_invalid_adb_server_token">Token is invalid.</string>
     <string name="err_invalid_ftp_port">Port range must be between 0 to 65535 and avoid ports used by ADB Remote.</string>
     <string name="err_invalid_ip_address">Invalid IP Address.</string>
-    <string name="err_invalid_pairing_code">Invalid pairing code.</string>
+    <string name="err_invalid_pairing_code">كود إقتران غير صالح</string>
     <string name="err_invalid_port">Invalid port.</string>
     <string name="err_invalid_promo_code">Invalid promo code.</string>
     <string name="err_save_screenshot_failed">Failed to save screenshot.</string>
@@ -106,7 +106,7 @@
     <string name="msg_connected_to">Connected to %s.</string>
     <string name="msg_connecting_to">Connecting to %s …</string>
     <string name="msg_contribute_translations">Is your language missing or would you like to improve the translations? Please consider contributing to our translation repository on GitHub.</string>
-    <string name="msg_copied_to_clipboard">Copied to clipboard.</string>
+    <string name="msg_copied_to_clipboard">تم النسخ للحافظة.</string>
     <string name="msg_delete_device_confirmation">Deleting this device will also remove the list of favorite apps associated with it.</string>
     <string name="msg_delete_ntp_config">To delete the NTP server configuration, set it to empty.</string>
     <string name="msg_delete_permanently_info">This is permanent and cannot be undone.</string>
@@ -215,13 +215,13 @@
     <string name="title_clear_data">Clear data</string>
     <string name="title_clear_data_confirmation">Delete all data?</string>
     <string name="title_clear_logs">Clear logs</string>
-    <string name="title_clipboard">Clipboard</string>
-    <string name="title_close_drawer">Close drawer</string>
+    <string name="title_clipboard">الحافظة</string>
+    <string name="title_close_drawer">غلق الدرج</string>
     <string name="title_continuous_press_delay">Continuous press delay</string>
-    <string name="title_copy">Copy</string>
-    <string name="title_copy_path">Copy path</string>
-    <string name="title_copying_file">Copying file</string>
-    <string name="title_copying_folder">Copying folder</string>
+    <string name="title_copy">نسخ</string>
+    <string name="title_copy_path">نسخ المسار</string>
+    <string name="title_copying_file">جاري نسخ الملف</string>
+    <string name="title_copying_folder">جاري نسخ المجلد</string>
     <string name="title_corner">Corner</string>
     <string name="title_corner_bottom_left">Bottom left corner</string>
     <string name="title_corner_bottom_right">Bottom right corner</string>
@@ -240,17 +240,17 @@
     <string name="title_delete">Delete</string>
     <string name="title_delete_device_confirmation">Delete device?</string>
     <string name="title_delete_permanently">Delete permanently?</string>
-    <string name="title_developer">Developer</string>
-    <string name="title_device">Device</string>
-    <string name="title_device_info">Device Info</string>
-    <string name="title_devices">Devices</string>
-    <string name="title_disable_app">Disable app</string>
-    <string name="title_disable_app_confirmation">Disable app?</string>
-    <string name="title_disable_haptic_on_release">Disable haptic on release</string>
-    <string name="title_disabled">Disabled</string>
+    <string name="title_developer">المطور</string>
+    <string name="title_device">الجهاز</string>
+    <string name="title_device_info">معلومات الجهاز</string>
+    <string name="title_devices">الأجهزة</string>
+    <string name="title_disable_app">تعطيل التطبيق</string>
+    <string name="title_disable_app_confirmation">تعطيل التطبيق؟</string>
+    <string name="title_disable_haptic_on_release">تعطيل الإهتزاز عند رفع الاصبع</string>
+    <string name="title_disabled">معطل</string>
     <string name="title_do_not_use_back_action">Don\'t use back action</string>
     <string name="title_do_not_use_volume_buttons">Don\'t use volume buttons</string>
-    <string name="title_download">Download</string>
+    <string name="title_download">تنزيل</string>
     <string name="title_edge">Edge</string>
     <string name="title_edge_bottom">Bottom edge</string>
     <string name="title_edge_curved">Curved</string>
@@ -259,147 +259,146 @@
     <string name="title_edge_right">Right edge</string>
     <string name="title_edge_top">Top edge</string>
     <string name="title_edge_triangle">Triangle</string>
-    <string name="title_enable_app">Enable app</string>
-    <string name="title_enable_haptic_feedback">Enable haptic feedback</string>
+    <string name="title_enable_app">تفعيل التطبيق</string>
+    <string name="title_enable_haptic_feedback">تفعيل الإهتزاز</string>
     <string name="title_enable_logs">Enable logs</string>
-    <string name="title_enable_pointers">Enable pointers</string>
-    <string name="title_enabled">Enabled</string>
-    <string name="title_exit_app">Exit app</string>
-    <string name="title_extra_buttons">Extra buttons</string>
+    <string name="title_enable_pointers">تفعيل المؤشرات</string>
+    <string name="title_enabled">مُمَكَّن</string>
+    <string name="title_exit_app">خروج</string>
+    <string name="title_extra_buttons">أزرار إضافية</string>
     <string name="title_fallback_root_folder">Fallback root folder</string>
-    <string name="title_favorite_apps">Favorite apps</string>
+    <string name="title_favorite_apps">التطبيقات المفضلة</string>
     <string name="title_file_access_error">File access error</string>
-    <string name="title_file_already_exists">File already exists</string>
-    <string name="title_file_path">File path</string>
-    <string name="title_file_size">File size</string>
-    <string name="title_file_type">Type</string>
-    <string name="title_files">Files</string>
-    <string name="title_files_settings">Files settings</string>
-    <string name="title_filter">Filter</string>
-    <string name="title_filter_apps">Filter apps</string>
-    <string name="title_follow_on_facebook">Follow on Facebook</string>
-    <string name="title_force_stop">Force stop</string>
-    <string name="title_force_stop_all_confirmation">Force stop all processes?</string>
-    <string name="title_force_stop_all_processes">Force stop all processes</string>
-    <string name="title_force_stop_app_on_long_press">Force stop app on long press</string>
-    <string name="title_force_stop_confirmation">Force stop?</string>
-    <string name="title_ftp_settings">FTP settings</string>
-    <string name="title_ftp_status">FTP status</string>
+    <string name="title_file_already_exists">الملف موجود بالفعل</string>
+    <string name="title_file_path">مسار الملف</string>
+    <string name="title_file_size">حجم الملف</string>
+    <string name="title_file_type">النوع</string>
+    <string name="title_files">الملفات</string>
+    <string name="title_files_settings">إعدادات الملفات</string>
+    <string name="title_filter">فلتر</string>
+    <string name="title_filter_apps">فلترة التطبيقات</string>
+    <string name="title_follow_on_facebook">تابعنا علي فيسبوك</string>
+    <string name="title_force_stop">فرض الإيقاف</string>
+    <string name="title_force_stop_all_confirmation">فرض إيقاف كل العمليات؟</string>
+    <string name="title_force_stop_all_processes">فرض إيقاف كل العمليات</string>
+    <string name="title_force_stop_app_on_long_press">ففرض إيقاف تطبيق بالضغط المطول</string>
+    <string name="title_force_stop_confirmation">فرض الإيقاف؟</string>
+    <string name="title_ftp_settings">FTP إعدادات</string>
+    <string name="title_ftp_status">FTP حالة</string>
     <string name="title_ftp_status_not_started">Not started</string>
-    <string name="title_ftp_status_running">Running</string>
-    <string name="title_ftp_status_starting">Starting</string>
-    <string name="title_ftp_status_stopping">Stopping</string>
-    <string name="title_general">General</string>
-    <string name="title_haptic_feedback">Haptic feedback</string>
-    <string name="title_home">Home</string>
-    <string name="title_how_to_connect">How to connect?</string>
-    <string name="title_image">Image</string>
-    <string name="title_installation_time">Installation time</string>
-    <string name="title_internal_storage">Internal storage</string>
-    <string name="title_join_telegram_channel">Join Telegram channel</string>
-    <string name="title_keyboard">Keyboard</string>
-    <string name="title_language">Language</string>
-    <string name="title_last_modified">Last modified</string>
-    <string name="title_last_update_time">Last update time</string>
-    <string name="title_logs">App logs</string>
-    <string name="title_manage_apps">Manage apps</string>
-    <string name="title_manage_processes">Manage processes</string>
-    <string name="title_manufacturer">Manufacturer</string>
-    <string name="title_memory">Memory</string>
-    <string name="title_memory_info">Memory info</string>
-    <string name="title_menu">Menu</string>
-    <string name="title_model">Model</string>
-    <string name="title_moving_file">Moving file</string>
-    <string name="title_moving_folder">Moving folder</string>
-    <string name="title_mute">Mute</string>
+    <string name="title_ftp_status_running">يعمل</string>
+    <string name="title_ftp_status_starting">جاري البدء</string>
+    <string name="title_ftp_status_stopping">جاري التوقف</string>
+    <string name="title_general">عام</string>
+    <string name="title_haptic_feedback">الإهتزاز</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_how_to_connect">كيف تتصل؟</string>
+    <string name="title_image">صورة</string>
+    <string name="title_installation_time">وقت التثبيت</string>
+    <string name="title_internal_storage">التخزين الداخلي</string>
+    <string name="title_join_telegram_channel">إنضم لقناة التليجرام</string>
+    <string name="title_keyboard">لوحة المفاتيح</string>
+    <string name="title_language">لغة</string>
+    <string name="title_last_modified">آخر تعديل</string>
+    <string name="title_last_update_time">آخر وقت تحديث<string name="title_logs">App logs</string>
+    <string name="title_manage_apps">إدارة التطبيقات</string>
+    <string name="title_manage_processes">إدارة العمليات</string>
+    <string name="title_manufacturer">المصنع</string>
+    <string name="title_memory">ذاكرة</string>
+    <string name="title_memory_info">معلومات الذاكرة</string>
+    <string name="title_menu">قائمة</string>
+    <string name="title_model">نموذج</string>
+    <string name="title_moving_file">نقل ملف</string>
+    <string name="title_moving_folder">نقل مجلد</string>
+    <string name="title_mute">كتم</string>
     <string name="title_mx_player_decode_mode">MX Player decode mode</string>
-    <string name="title_name">Name</string>
+    <string name="title_name">اسم</string>
     <string name="title_native_library_path">Native library path</string>
-    <string name="title_next">Next</string>
-    <string name="title_not_available">N/A</string>
-    <string name="title_notification_permission">Notification permission</string>
+    <string name="title_next">التالي</string>
+    <string name="title_not_available">غير متاح</string>
+    <string name="title_notification_permission">إذن الاشعارات</string>
     <string name="title_ntp">NTP</string>
-    <string name="title_ntp_server">NTP server</string>
-    <string name="title_numpad">Numpad</string>
-    <string name="title_open_app">Open app</string>
-    <string name="title_open_app_info_settings">Open app info settings</string>
-    <string name="title_open_drawer">Open drawer</string>
-    <string name="title_open_in_local_play_store">Open in local Play Store</string>
-    <string name="title_open_in_play_store">Open in Play Store</string>
-    <string name="title_open_remotely">Open remotely</string>
-    <string name="title_open_remotely_using">Open remotely using</string>
-    <string name="title_open_remotely_with">Open remotely with</string>
+    <string name="title_ntp_server">NTP سيرفر</string>
+    <string name="title_numpad">لوحة الأرقام</string>
+    <string name="title_open_app">فتح التطبيق</string>
+    <string name="title_open_app_info_settings">فتح إعدادات معلومات التطبيق</string>
+    <string name="title_open_drawer">فتح الدرج</string>
+    <string name="title_open_in_local_play_store">فتح في متجر بلاي المحلي</string>
+    <string name="title_open_in_play_store">فتح في متجر بلاي</string>
+    <string name="title_open_remotely">الفتح عن بعد</string>
+    <string name="title_open_remotely_using">الفتح عن بعد باستخدام</string>
+    <string name="title_open_remotely_with">الفتح عن بعد ب</string>
     <string name="title_open_source_licenses">Open source licenses</string>
-    <string name="title_openable">Openable</string>
-    <string name="title_order_ascending">Ascending</string>
-    <string name="title_other_settings">Other settings</string>
-    <string name="title_package_name">Package name</string>
-    <string name="title_parent_folder">Parent folder</string>
+    <string name="title_openable">قابل للفتح</string>
+    <string name="title_order_ascending">تصاعدي</string>
+    <string name="title_other_settings">إعدادات أخري</string>
+    <string name="title_package_name">إسم الحزمة</string>
+    <string name="title_parent_folder">المجلد الرئيسي</string>
     <string name="title_passive_mode">Passive mode</string>
-    <string name="title_password">Password</string>
-    <string name="title_pause_ad">Pause Ad</string>
-    <string name="title_performance">Performance</string>
-    <string name="title_permissions">Permissions</string>
-    <string name="title_play_pause">Play pause</string>
-    <string name="title_pointer_size">Pointer size</string>
-    <string name="title_power">Power</string>
-    <string name="title_premium_access">Premium access</string>
-    <string name="title_preview">Preview</string>
-    <string name="title_previous">Previous</string>
-    <string name="title_privacy_policy">Privacy Policy</string>
-    <string name="title_processes">Processes</string>
-    <string name="title_promo_code">Promo code</string>
-    <string name="title_properties">Properties</string>
+    <string name="title_password">الرقم السري</string>
+    <string name="title_pause_ad">إيقاف الإعلانات</string>
+    <string name="title_performance">الأداء</string>
+    <string name="title_permissions">الأذونات</string>
+    <string name="title_play_pause">تشغيل إيقاف</string>
+    <string name="title_pointer_size">حجم المؤشر</string>
+    <string name="title_power">الطاقة</string>
+    <string name="title_premium_access">بريميام</string>
+    <string name="title_preview">عرض مسبق</string>
+    <string name="title_previous">السابق</string>
+    <string name="title_privacy_policy">سياسة الخصوصية</string>
+    <string name="title_processes">العمليات</string>
+    <string name="title_promo_code">كود ترويجي</string>
+    <string name="title_properties">خصائص</string>
     <string name="title_read_only">Read only</string>
-    <string name="title_remove_from_fav_apps">Remove from favorite apps</string>
-    <string name="title_rename">Rename</string>
-    <string name="title_reset_adb_config">Reset ADB configurations</string>
-    <string name="title_reset_to_default">Reset to default</string>
-    <string name="title_root_folder">Root folder</string>
-    <string name="title_root_folder_path">Root folder path</string>
-    <string name="title_screenshot">Screenshot</string>
-    <string name="title_sdk_version">SDK version</string>
-    <string name="title_search">Search</string>
-    <string name="title_search_apps">Search apps</string>
-    <string name="title_select_a_button">Select a button</string>
-    <string name="title_select_an_image">Select an image</string>
-    <string name="title_settings">Settings</string>
-    <string name="title_share">Share</string>
-    <string name="title_show_tooltip_on_buttons">Show tooltip on buttons</string>
-    <string name="title_sort">Sort</string>
-    <string name="title_sort_by_last_modified">Last modified</string>
-    <string name="title_sort_by_name">Name</string>
-    <string name="title_sort_by_name_a_to_z">Sort by name A to Z</string>
-    <string name="title_sort_by_name_z_to_a">Sort by name Z to A</string>
-    <string name="title_sort_by_size">Size</string>
-    <string name="title_stop">Stop</string>
-    <string name="title_supported">Supported</string>
-    <string name="title_supported_abi">Supported ABIs</string>
-    <string name="title_system_icons">System icons</string>
-    <string name="title_terms_of_service">Terms of Service</string>
-    <string name="title_text">Text</string>
+    <string name="title_remove_from_fav_apps">إزالة من التطبيقات المفضلة</string>
+    <string name="title_rename">إعادة تسمية</string>
+    <string name="title_reset_adb_config">إعادة تهيئة تكوين adb</string>
+    <string name="title_reset_to_default">إعادة تهيئة للإفتراضي</string>
+    <string name="title_root_folder">مجلد الروت</string>
+    <string name="title_root_folder_path">مسار مجلد الروت</string>
+    <string name="title_screenshot">لقطة شاشة</string>
+    <string name="title_sdk_version">SDK إصدار</string>
+    <string name="title_search">بحث</string>
+    <string name="title_search_apps">بحث في التطبيقات</string>
+    <string name="title_select_a_button">إختر زر</string>
+    <string name="title_select_an_image">إختر صورة</string>
+    <string name="title_settings">الإعدادات</string>
+    <string name="title_share">مشاركة</string>
+    <string name="title_show_tooltip_on_buttons">عرض تلميح الأزرار</string>
+    <string name="title_sort">نوع</string>
+    <string name="title_sort_by_last_modified">آخر تعديل</string>
+    <string name="title_sort_by_name">إسم</string>
+    <string name="title_sort_by_name_a_to_z">أبجدي من A إلي Z</string>
+    <string name="title_sort_by_name_z_to_a">أبجدي من Z إلي A</string>
+    <string name="title_sort_by_size">حجم</string>
+    <string name="title_stop">إيقاف</string>
+    <string name="title_supported">مدعوم</string>
+    <string name="title_supported_abi">ABIs المدعومة</string>
+    <string name="title_system_icons">أيقونات النظام</string>
+    <string name="title_terms_of_service">شروط الخدمة</string>
+    <string name="title_text">نص</string>
     <string name="title_trackpad">Trackpad</string>
-    <string name="title_trackpad_sensitivity">Trackpad sensitivity</string>
-    <string name="title_uninstall_app">Uninstall app</string>
-    <string name="title_uninstall_app_confirmation">Uninstall now?</string>
-    <string name="title_unknown_model">Unknown model</string>
+    <string name="title_trackpad_sensitivity">Trackpad حساسية</string>
+    <string name="title_uninstall_app">إلغاء تثبيت التطبيق</string>
+    <string name="title_uninstall_app_confirmation">إلغاء التثبيت الآن؟</string>
+    <string name="title_unknown_model">نموذج غير معروف</string>
     <string name="title_unsupported_android_version">Unsupported Android version</string>
-    <string name="title_upload_files">Upload files</string>
-    <string name="title_upload_folder">Upload folder</string>
-    <string name="title_url">URL</string>
+    <string name="title_upload_files">رفع ملفات</string>
+    <string name="title_upload_folder">رفع مجلد</string>
+    <string name="title_url">رابطURL</string>
     <string name="title_use_default_adb_server_token">Use default adb server token</string>
-    <string name="title_use_dynamic_color">Use dynamic color</string>
-    <string name="title_use_physical_buttons">Use physical buttons</string>
+    <string name="title_use_dynamic_color">استخدام لون ديناميكي</string>
+    <string name="title_use_physical_buttons">استخدام أزرار حقيقية</string>
     <string name="title_use_vibrator_api_for_haptic">Use Vibrator API for Haptic</string>
-    <string name="title_user_interface">User interface</string>
-    <string name="title_username">Username</string>
-    <string name="title_version_code">Version code</string>
-    <string name="title_version_name">Version name</string>
-    <string name="title_visit_website">Visit website</string>
-    <string name="title_volume_down">Volume down</string>
-    <string name="title_volume_up">Volume up</string>
-    <string name="title_what_is_it">What is it?</string>
-    <string name="title_what_is_new">What\'s New</string>
+    <string name="title_user_interface">واجهة المستخدم</string>
+    <string name="title_username">اسم المستخدم</string>
+    <string name="title_version_code">رقم الاصدار</string>
+    <string name="title_version_name">اسم الاصدار</string>
+    <string name="title_visit_website">زيادة الموقع</string>
+    <string name="title_volume_down">خقض الصوت</string>
+    <string name="title_volume_up">رفع الصوت</string>
+    <string name="title_what_is_it">ما هذا؟</string>
+    <string name="title_what_is_new">ما الجديد</string>
     <string name="title_wireless_debugging_mode">Wireless debugging mode</string>
 
     <plurals name="wait_n_seconds">
@@ -407,52 +406,5 @@
         <item quantity="other">%d seconds</item>
     </plurals>
 
-    <string name="ad_attribution" translatable="false">Ad</string>
 
-    <string name="btn_alt" translatable="false">Alt</string>
-    <string name="btn_ctrl" translatable="false">Ctrl</string>
-    <string name="btn_escape" translatable="false">Esc</string>
-    <string name="btn_insert" translatable="false">Insert</string>
-    <string name="btn_shift" translatable="false">Shift</string>
-    <string name="btn_tab" translatable="false">Tab</string>
-
-    <string name="const_tcp_port" translatable="false">5555</string>
-
-    <string name="notification_channel_device_connection" translatable="false">Device connection</string>
-
-    <string name="title_allow_usb_debugging" translatable="false">Allow USB debugging</string>
-    <string name="title_client_app_version" translatable="false">%s (%d)</string>
-    <string name="title_compile_sdk" translatable="false">Compile SDK</string>
-    <string name="title_default_ip" translatable="false">192.168.x.x</string>
-    <string name="title_default_port" translatable="false">5555</string>
-    <string name="title_developer_name" translatable="false">Kaung Khant Kyaw</string>
-    <string name="title_f1" translatable="false">F1</string>
-    <string name="title_f10" translatable="false">F10</string>
-    <string name="title_f11" translatable="false">F11</string>
-    <string name="title_f12" translatable="false">F12</string>
-    <string name="title_f2" translatable="false">F2</string>
-    <string name="title_f3" translatable="false">F3</string>
-    <string name="title_f4" translatable="false">F4</string>
-    <string name="title_f5" translatable="false">F5</string>
-    <string name="title_f6" translatable="false">F6</string>
-    <string name="title_f7" translatable="false">F7</string>
-    <string name="title_f8" translatable="false">F8</string>
-    <string name="title_f9" translatable="false">F9</string>
-    <string name="title_incremental" translatable="false">Incremental</string>
-    <string name="title_ip_address" translatable="false">IP address</string>
-    <string name="title_launcher_activity" translatable="false">Launcher activity</string>
-    <string name="title_min_sdk" translatable="false">Minimum SDK</string>
-    <string name="title_move_end" translatable="false">End</string>
-    <string name="title_n_cpu_core" translatable="false">Core %d</string>
-    <string name="title_page_down" translatable="false">PgDn</string>
-    <string name="title_page_up" translatable="false">PgUp</string>
-    <string name="title_pairing_code" translatable="false">Pairing code</string>
-    <string name="title_pairing_port" translatable="false">Pairing port</string>
-    <string name="title_percent" translatable="false">%d%%</string>
-    <string name="title_port" translatable="false">Port</string>
-    <string name="title_system" translatable="false">System</string>
-    <string name="title_target_sdk" translatable="false">Target SDK</string>
-    <string name="title_tcp_ip_port" translatable="false">TCP-IP port</string>
-    <string name="title_user" translatable="false">User</string>
-    <string name="title_user_id" translatable="false">User ID (UID)</string>
 </resources>

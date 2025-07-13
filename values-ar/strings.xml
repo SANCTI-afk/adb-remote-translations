@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">ADB Remote</string>
+
+    <string name="btn_add_device">Add device</string>
+    <string name="btn_agree">Agree</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_apply_icon_pack">Apply</string>
+    <string name="btn_apply_promo">Apply</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_disagree">Disagree</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_export_to_clipboard">Export to clipboard</string>
+    <string name="btn_get_clipboard">Get clipboard</string>
+    <string name="btn_ignore_this_time">Ignore this time</string>
+    <string name="btn_import_from_clipboard">Import from clipboard</string>
+    <string name="btn_keep_both_files">Keep both files</string>
+    <string name="btn_learn_more">Learn more</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_no">No</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_randomize">Randomize</string>
+    <string name="btn_rate_app">Rate app</string>
+    <string name="btn_reconnect">Reconnect</string>
+    <string name="btn_replace">Replace</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_send_feedback">Send feedback</string>
+    <string name="btn_set_clipboard">Set clipboard</string>
+    <string name="btn_share_app">Share app</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_translations">Translations</string>
+    <string name="btn_try_again">Try again</string>
+    <string name="btn_unbind">Unbind</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_watch">Watch</string>
+    <string name="btn_yes">Yes</string>
+
+    <string name="err_blank_fallback_root_folder">Fallback root folder is required.</string>
+    <string name="err_blank_root_folder_path">Root folder path is required.</string>
+    <string name="err_blank_username">Username is required.</string>
+    <string name="err_connection_timeout">Connection timed out. Please try again.</string>
+    <string name="err_connection_timeout_multiple_times">Connection timed out. Please ensure the IP address and port number are correct. If the issue persists, please restart/reboot this device and try again.</string>
+    <string name="err_device_unreachable">Device is unreachable. Please try again or reconnect.</string>
+    <string name="err_empty_device_name">Device name should not be empty.</string>
+    <string name="err_failed_to_connect">Failed to connect to the server.</string>
+    <string name="err_fetching_terms">Failed to connect to the server. Please visit our website directly.</string>
+    <string name="err_invalid_adb_server_token">Token is invalid.</string>
+    <string name="err_invalid_ftp_port">Port range must be between 0 to 65535 and avoid ports used by ADB Remote.</string>
+    <string name="err_invalid_ip_address">Invalid IP Address.</string>
+    <string name="err_invalid_pairing_code">Invalid pairing code.</string>
+    <string name="err_invalid_port">Invalid port.</string>
+    <string name="err_invalid_promo_code">Invalid promo code.</string>
+    <string name="err_save_screenshot_failed">Failed to save screenshot.</string>
+    <string name="err_too_many_requests">Too many requests. Please try again later.</string>
+    <string name="err_unexpected">Unexpected error occurred.</string>
+
+    <string name="hint_customize_control_buttons">You can easily customize the buttons.\n\n1. Tap on the button you want to change.\n2. A list of available buttons will appear. Select the desired button to assign it.</string>
+
+    <string name="icon_shape_circle">Circle</string>
+    <string name="icon_shape_curved_octagon">Curved octagon</string>
+    <string name="icon_shape_curved_square">Curved square</string>
+    <string name="icon_shape_curved_squircle">Curved squircle</string>
+    <string name="icon_shape_curved_squircle_2">Curved squircle 2</string>
+    <string name="icon_shape_curved_teardrop">Teardrop</string>
+    <string name="icon_shape_custom">Custom icon shape</string>
+    <string name="icon_shape_diamond">Diamond</string>
+    <string name="icon_shape_egg">Egg</string>
+    <string name="icon_shape_ios">IOS</string>
+    <string name="icon_shape_octagon">Octagon</string>
+    <string name="icon_shape_one_ui">One UI</string>
+    <string name="icon_shape_rounded_square">Rounded square</string>
+    <string name="icon_shape_sharp_square">Sharp square</string>
+
+    <string name="msg_adb_reset_guide">User\'s settings will not be deleted. Existing ADB connections will be disconnected. ADB configurations, including device and favorite app lists, will be deleted. You will need to reconnect ADB after the reset.\n\nIf the connection problem persists, please try to:\n\n- Restart/reboot this device\n- Reinstall the app\n\nIf none of these solutions work, please contact us.</string>
+    <string name="msg_adb_server_token">ADB server token is a unique identifier generated once for secure device communication. To connect multiple devices to a single target, use the same token on each device by copying it manually. Default token is also available but it’s recommended to use a shared random token for better security.</string>
+    <string name="msg_adb_service">connected to the device.</string>
+    <string name="msg_added_to_fav_apps">Added to favorite apps.</string>
+    <string name="msg_allow_usb_debugging">Please allow USB debugging on the target device by pressing OK / Allow button.</string>
+    <string name="msg_app_data_cleared">%s app data cleared.</string>
+    <string name="msg_app_disabled">%s app disabled.</string>
+    <string name="msg_app_enabled">%s app enabled.</string>
+    <string name="msg_app_force_stopped">%s app force stopped.</string>
+    <string name="msg_app_info_settings_launched">%s app info settings launched.</string>
+    <string name="msg_app_launched">%s app launched.</string>
+    <string name="msg_app_launched_in_play_store">%s app launched in Play Store.</string>
+    <string name="msg_app_uninstalled">%s app uninstalled.</string>
+    <string name="msg_button_control_mode_changed">It appears the connected device may not support \"ADB socket mode\", so app has switched to \"ADB binary mode\" for button control. Although this mode is stable, you might notice a slight delay in responsiveness. You can change this setting at any time in the app settings.</string>
+    <string name="msg_cache_cleared">%s freed on your device!</string>
+    <string name="msg_changing_tcp_ip_mode">Connected! Changing TCP-IP mode …</string>
+    <string name="msg_changing_tcp_ip_mode_takes_too_long">Changing TCP-IP mode …, if it takes too long, please reconnect  or restart app.</string>
+    <string name="msg_character_not_supported">\'%s\' character is not supported yet.</string>
+    <string name="msg_clear_cache">All app cache, such as app icons and ADB logs, will be deleted.</string>
+    <string name="msg_clear_data_confirmation">All app data, including files, settings, accounts databases, and cache will be permanently deleted.</string>
+    <string name="msg_clipboard_image_saved">Clipboard image saved.</string>
+    <string name="msg_connect_after_paired">Paired! Connecting to the device …</string>
+    <string name="msg_connect_after_paired_takes_too_long">Connecting to the device .., if it takes too long, please reconnect or restart/reboot this device.</string>
+    <string name="msg_connect_to_a_device">Connect to a device</string>
+    <string name="msg_connected_to">Connected to %s.</string>
+    <string name="msg_connecting_to">Connecting to %s …</string>
+    <string name="msg_contribute_translations">Is your language missing or would you like to improve the translations? Please consider contributing to our translation repository on GitHub.</string>
+    <string name="msg_copied_to_clipboard">Copied to clipboard.</string>
+    <string name="msg_delete_device_confirmation">Deleting this device will also remove the list of favorite apps associated with it.</string>
+    <string name="msg_delete_ntp_config">To delete the NTP server configuration, set it to empty.</string>
+    <string name="msg_delete_permanently_info">This is permanent and cannot be undone.</string>
+    <string name="msg_disable_app_confirmation">If you disable this app, Android and other apps may no longer function as intended.</string>
+    <string name="msg_disconnecting_devices">Disconnecting devices …</string>
+    <string name="msg_editing_ip_port_warning">Editing the IP address or port may cause connection failure. Please proceed with caution or reconnect this device again.</string>
+    <string name="msg_empty">There\'s nothing here.</string>
+    <string name="msg_enter_text_here">Enter text here</string>
+    <string name="msg_failed_to_authenticate">Please allow USB debugging on the target device and try again. Check \"Always allow from this computer\" and press \"OK\".</string>
+    <string name="msg_failed_to_launch_url">No app found to open the link.</string>
+    <string name="msg_fallback_root_folder_notice">It will be used if root folder cannot be accessed.</string>
+    <string name="msg_file_deleted">File deleted.</string>
+    <string name="msg_file_opened_remotely">File opened remotely.</string>
+    <string name="msg_file_streaming_notice">File streaming requires Android 8.0 or later.</string>
+    <string name="msg_file_type_not_supported">File type not supported.</string>
+    <string name="msg_folder_deleted">Folder deleted.</string>
+    <string name="msg_folder_into_itself">The destination folder is inside the source folder.</string>
+    <string name="msg_folder_opened_remotely">Folder opened remotely.</string>
+    <string name="msg_force_stop_all_confirmation">If you force stop all visible running processes, they may misbehave and the system may become unstable. Note that only the processes you filtered out will be killed.</string>
+    <string name="msg_force_stop_confirmation">If you force stop an app, it may misbehave.</string>
+    <string name="msg_force_stopped_processes">Processes have been forcibly stopped.</string>
+    <string name="msg_ftp_server_not_started">FTP server not started.</string>
+    <string name="msg_got_promo_code">Got a promo code?</string>
+    <string name="msg_icon_pack_application_request">An app is requesting to apply the %s icon pack.</string>
+    <string name="msg_imported_from_clipboard">Imported from clipboard.</string>
+    <string name="msg_keyboard_info">App can send key combinations using supported modifier keys (Shift, Ctrl, and Alt). However, only two combinations are currently supported.\ne.g.\n\n- Ctrl + A\n- Ctrl + C\n- Ctrl + V\n- Ctrl + T\n- Alt + D\n- Alt + Left arrow etc ..\n\nPlease note that the text preview may differ from the actual text on the connected device. This is because text content from the currently focused input cannot be retrieved from the ADB. Moving the cursor from the preview is supported, but app disables text selection on it. Although selecting text on the current device should also select text on the target device, text selection may produce unexpected results since the app cannot retrieve the actual full text. This scenario also applies to key combinations like Ctrl+A and Ctrl+V. That\'s why the preview cannot accurately emulate all scenarios. Due to ADB\'s limitations to printable ASCII characters, app currently only supports these characters.</string>
+    <string name="msg_logs_empty">To view logs, please enable logs and connect a device first.</string>
+    <string name="msg_logs_info">Logs are temporarily stored on this device and never shared unless you manually share it.</string>
+    <string name="msg_memory_detail">In use : %1$s (%2$d%%)\nAvailable: %3$s (%4$d%%)\nTotal : %5$s</string>
+    <string name="msg_modifier_keys_only_available_in_socket_mode">Modifier keys and key combinations are only available in ADB socket mode. This can be changed in Settings &gt; Button control mode.</string>
+    <string name="msg_no_connected_devices">There\'s no connected devices yet.</string>
+    <string name="msg_no_reward_ad">No ad to show. Please try again later.</string>
+    <string name="msg_notification_permission">To provide seamless device connection alerts and easy disconnection option, app requires notification permission.</string>
+    <string name="msg_ntp_configured">NTP server has been configured successfully. Please reboot the connected device to take effect.</string>
+    <string name="msg_ntp_info">Network Time Protocol (NTP) synchronizes the clock of connected device over the internet.</string>
+    <string name="msg_pairing_to">Pairing to %s …</string>
+    <string name="msg_pause_ad_info">Watch a short ad to unlock 1 day of premium, pause ads, and enjoy an ad-free experience. Earn additional days by viewing more ads.</string>
+    <string name="msg_premium_access_ends_on">Premium access ends on %s.</string>
+    <string name="msg_premium_access_lifetime">Congratulations! Premium access is lifetime.</string>
+    <string name="msg_prepare_after_connected">Connected! Getting your device ready …</string>
+    <string name="msg_prepare_after_connected_takes_too_long">Connected! Getting your device ready .., if it takes too long, please reconnect or restart/reboot this device.</string>
+    <string name="msg_prepare_after_tcp_ip_mode">TCP-IP mode changed. Reconnecting using TCP-IP …</string>
+    <string name="msg_preview_warning">Preview may differ from actual text.</string>
+    <string name="msg_rate_app">Thank you for using the app.\n\nEnjoying the app? Please rate us! If you\'re facing any issues, we\'d love to hear from you.</string>
+    <string name="msg_removed_from_fav_apps">Removed from favorite apps.</string>
+    <string name="msg_reward_ad_still_loading">Still loading, please wait …</string>
+    <string name="msg_screenshot_saved">Screenshot saved.</string>
+    <string name="msg_set_image_to_clipboard">Set image to clipboard successfully.</string>
+    <string name="msg_set_text_to_clipboard">Set text to clipboard successfully.</string>
+    <string name="msg_share_app">Seamlessly control your Android devices using ADB Remote app. Get it for free on Play Store or through the link below.\n\n%s\n\n#adbRemote</string>
+    <string name="msg_text_selection_not_supported">Text selection is not supported yet.</string>
+    <string name="msg_trackpad_only_available_in_socket_mode">Trackpad is only available in ADB socket mode. This can be changed in Settings &gt; Button control mode.</string>
+    <string name="msg_unbind_promo_notice">Applied promo code will be removed and can be reused on this or another device.</string>
+    <string name="msg_unencrypted_ftp_notice">Use this feature on trusted networks like home Wi-Fi, as file transfers are unencrypted.</string>
+    <string name="msg_uninstall_app_confirmation">Uninstalling will remove all app data.</string>
+    <string name="msg_use_different_gallery_app">Cannot access selected file. Please use a different gallery app like Google Photos.</string>
+    <string name="msg_vpn_warning">ADB may not work with VPN on.</string>
+    <string name="msg_wifi_disconnected">Please connect both devices to the same WiFi network.</string>
+
+    <string name="summary_apps_in_search">%s (Openable apps only)</string>
+    <string name="summary_disable_haptic_feedback_on_release">Disable haptic feedback when releasing pressed buttons</string>
+    <string name="summary_do_not_use_back_action">App controls back action using device\'s back button if option is off.</string>
+    <string name="summary_do_not_use_volume_buttons">App controls volume actions using device\'s volume buttons if option is off.</string>
+    <string name="summary_enable_haptic_feedback">Enable haptic feedback when tapping buttons</string>
+    <string name="summary_force_stop_app_on_long_press">Force-stop favorite apps by long-clicking them.</string>
+    <string name="summary_open_source_licenses">License details for open source software</string>
+    <string name="summary_reset_adb_config">Resetting it may fix unexpected adb connection issues</string>
+    <string name="summary_use_default_adb_server_token">For testing only. Use a shared random token for better security.</string>
+    <string name="summary_use_dynamic_color">Apply colors from wallpapers to the app theme</string>
+    <string name="summary_use_physical_buttons">Use physical buttons on this device and external keyboards</string>
+    <string name="summary_use_vibrator_api_for_haptic">Use Vibrator API for haptic feedback if buttons do not perform haptic feedback</string>
+
+    <string name="title_acknowledgement">Acknowledgement</string>
+    <string name="title_adb_server_token">ADB server token</string>
+    <string name="title_add_app">Add app</string>
+    <string name="title_add_icon_pack">Add icon pack</string>
+    <string name="title_add_to_fav_apps">Add to favorite apps</string>
+    <string name="title_all">All</string>
+    <string name="title_android_tv_support">Android TV support</string>
+    <string name="title_android_version">Android version</string>
+    <string name="title_anonymous_login">Anonymous login</string>
+    <string name="title_app_info">App info</string>
+    <string name="title_app_name">App name</string>
+    <string name="title_app_size">App size</string>
+    <string name="title_app_state">App state</string>
+    <string name="title_app_theme">App theme</string>
+    <string name="title_app_type">App type</string>
+    <string name="title_app_version">Version: %1$s (%2$s)</string>
+    <string name="title_apply_this_action_to_all_files">Apply this action to all files</string>
+    <string name="title_apps">Apps</string>
+    <string name="title_apps_icon_shape">Apps icon shape</string>
+    <string name="title_apps_icon_style">Apps icon style</string>
+    <string name="title_apps_in_search">Apps in search</string>
+    <string name="title_back">Back</string>
+    <string name="title_battery_info">Battery info</string>
+    <string name="title_board">Board</string>
+    <string name="title_brand">Brand</string>
+    <string name="title_button_control_mode">Button control mode</string>
+    <string name="title_button_control_mode_changed">Button control mode changed</string>
+    <string name="title_buttons">Buttons</string>
+    <string name="title_cannot_copy_folder_into_itself">Cannot copy a folder into itself</string>
+    <string name="title_cannot_move_folder_into_itself">Cannot move a folder into itself</string>
+    <string name="title_choose_one">Please choose one</string>
+    <string name="title_clear_cache">Clear cache</string>
+    <string name="title_clear_cache_size">Clear cache (%s)</string>
+    <string name="title_clear_data">Clear data</string>
+    <string name="title_clear_data_confirmation">Delete all data?</string>
+    <string name="title_clear_logs">Clear logs</string>
+    <string name="title_clipboard">Clipboard</string>
+    <string name="title_close_drawer">Close drawer</string>
+    <string name="title_continuous_press_delay">Continuous press delay</string>
+    <string name="title_copy">Copy</string>
+    <string name="title_copy_path">Copy path</string>
+    <string name="title_copying_file">Copying file</string>
+    <string name="title_copying_folder">Copying folder</string>
+    <string name="title_corner">Corner</string>
+    <string name="title_corner_bottom_left">Bottom left corner</string>
+    <string name="title_corner_bottom_right">Bottom right corner</string>
+    <string name="title_corner_cut">Cut</string>
+    <string name="title_corner_rounded">Rounded</string>
+    <string name="title_corner_top_left">Top left corner</string>
+    <string name="title_corner_top_right">Top right corner</string>
+    <string name="title_cpu_info">CPU info</string>
+    <string name="title_cpu_usage">CPU usage</string>
+    <string name="title_create_new_file">Create new file</string>
+    <string name="title_create_new_folder">Create new folder</string>
+    <string name="title_customize_control_buttons">Customize control buttons</string>
+    <string name="title_customize_icon_shape">Customize icon shape</string>
+    <string name="title_cut">Cut</string>
+    <string name="title_data_path">Data path</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_delete_device_confirmation">Delete device?</string>
+    <string name="title_delete_permanently">Delete permanently?</string>
+    <string name="title_developer">Developer</string>
+    <string name="title_device">Device</string>
+    <string name="title_device_info">Device Info</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_disable_app">Disable app</string>
+    <string name="title_disable_app_confirmation">Disable app?</string>
+    <string name="title_disable_haptic_on_release">Disable haptic on release</string>
+    <string name="title_disabled">Disabled</string>
+    <string name="title_do_not_use_back_action">Don\'t use back action</string>
+    <string name="title_do_not_use_volume_buttons">Don\'t use volume buttons</string>
+    <string name="title_download">Download</string>
+    <string name="title_edge">Edge</string>
+    <string name="title_edge_bottom">Bottom edge</string>
+    <string name="title_edge_curved">Curved</string>
+    <string name="title_edge_left">Left edge</string>
+    <string name="title_edge_normal">Normal</string>
+    <string name="title_edge_right">Right edge</string>
+    <string name="title_edge_top">Top edge</string>
+    <string name="title_edge_triangle">Triangle</string>
+    <string name="title_enable_app">Enable app</string>
+    <string name="title_enable_haptic_feedback">Enable haptic feedback</string>
+    <string name="title_enable_logs">Enable logs</string>
+    <string name="title_enable_pointers">Enable pointers</string>
+    <string name="title_enabled">Enabled</string>
+    <string name="title_exit_app">Exit app</string>
+    <string name="title_extra_buttons">Extra buttons</string>
+    <string name="title_fallback_root_folder">Fallback root folder</string>
+    <string name="title_favorite_apps">Favorite apps</string>
+    <string name="title_file_access_error">File access error</string>
+    <string name="title_file_already_exists">File already exists</string>
+    <string name="title_file_path">File path</string>
+    <string name="title_file_size">File size</string>
+    <string name="title_file_type">Type</string>
+    <string name="title_files">Files</string>
+    <string name="title_files_settings">Files settings</string>
+    <string name="title_filter">Filter</string>
+    <string name="title_filter_apps">Filter apps</string>
+    <string name="title_follow_on_facebook">Follow on Facebook</string>
+    <string name="title_force_stop">Force stop</string>
+    <string name="title_force_stop_all_confirmation">Force stop all processes?</string>
+    <string name="title_force_stop_all_processes">Force stop all processes</string>
+    <string name="title_force_stop_app_on_long_press">Force stop app on long press</string>
+    <string name="title_force_stop_confirmation">Force stop?</string>
+    <string name="title_ftp_settings">FTP settings</string>
+    <string name="title_ftp_status">FTP status</string>
+    <string name="title_ftp_status_not_started">Not started</string>
+    <string name="title_ftp_status_running">Running</string>
+    <string name="title_ftp_status_starting">Starting</string>
+    <string name="title_ftp_status_stopping">Stopping</string>
+    <string name="title_general">General</string>
+    <string name="title_haptic_feedback">Haptic feedback</string>
+    <string name="title_home">Home</string>
+    <string name="title_how_to_connect">How to connect?</string>
+    <string name="title_image">Image</string>
+    <string name="title_installation_time">Installation time</string>
+    <string name="title_internal_storage">Internal storage</string>
+    <string name="title_join_telegram_channel">Join Telegram channel</string>
+    <string name="title_keyboard">Keyboard</string>
+    <string name="title_language">Language</string>
+    <string name="title_last_modified">Last modified</string>
+    <string name="title_last_update_time">Last update time</string>
+    <string name="title_logs">App logs</string>
+    <string name="title_manage_apps">Manage apps</string>
+    <string name="title_manage_processes">Manage processes</string>
+    <string name="title_manufacturer">Manufacturer</string>
+    <string name="title_memory">Memory</string>
+    <string name="title_memory_info">Memory info</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_model">Model</string>
+    <string name="title_moving_file">Moving file</string>
+    <string name="title_moving_folder">Moving folder</string>
+    <string name="title_mute">Mute</string>
+    <string name="title_mx_player_decode_mode">MX Player decode mode</string>
+    <string name="title_name">Name</string>
+    <string name="title_native_library_path">Native library path</string>
+    <string name="title_next">Next</string>
+    <string name="title_not_available">N/A</string>
+    <string name="title_notification_permission">Notification permission</string>
+    <string name="title_ntp">NTP</string>
+    <string name="title_ntp_server">NTP server</string>
+    <string name="title_numpad">Numpad</string>
+    <string name="title_open_app">Open app</string>
+    <string name="title_open_app_info_settings">Open app info settings</string>
+    <string name="title_open_drawer">Open drawer</string>
+    <string name="title_open_in_local_play_store">Open in local Play Store</string>
+    <string name="title_open_in_play_store">Open in Play Store</string>
+    <string name="title_open_remotely">Open remotely</string>
+    <string name="title_open_remotely_using">Open remotely using</string>
+    <string name="title_open_remotely_with">Open remotely with</string>
+    <string name="title_open_source_licenses">Open source licenses</string>
+    <string name="title_openable">Openable</string>
+    <string name="title_order_ascending">Ascending</string>
+    <string name="title_other_settings">Other settings</string>
+    <string name="title_package_name">Package name</string>
+    <string name="title_parent_folder">Parent folder</string>
+    <string name="title_passive_mode">Passive mode</string>
+    <string name="title_password">Password</string>
+    <string name="title_pause_ad">Pause Ad</string>
+    <string name="title_performance">Performance</string>
+    <string name="title_permissions">Permissions</string>
+    <string name="title_play_pause">Play pause</string>
+    <string name="title_pointer_size">Pointer size</string>
+    <string name="title_power">Power</string>
+    <string name="title_premium_access">Premium access</string>
+    <string name="title_preview">Preview</string>
+    <string name="title_previous">Previous</string>
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <string name="title_processes">Processes</string>
+    <string name="title_promo_code">Promo code</string>
+    <string name="title_properties">Properties</string>
+    <string name="title_read_only">Read only</string>
+    <string name="title_remove_from_fav_apps">Remove from favorite apps</string>
+    <string name="title_rename">Rename</string>
+    <string name="title_reset_adb_config">Reset ADB configurations</string>
+    <string name="title_reset_to_default">Reset to default</string>
+    <string name="title_root_folder">Root folder</string>
+    <string name="title_root_folder_path">Root folder path</string>
+    <string name="title_screenshot">Screenshot</string>
+    <string name="title_sdk_version">SDK version</string>
+    <string name="title_search">Search</string>
+    <string name="title_search_apps">Search apps</string>
+    <string name="title_select_a_button">Select a button</string>
+    <string name="title_select_an_image">Select an image</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_share">Share</string>
+    <string name="title_show_tooltip_on_buttons">Show tooltip on buttons</string>
+    <string name="title_sort">Sort</string>
+    <string name="title_sort_by_last_modified">Last modified</string>
+    <string name="title_sort_by_name">Name</string>
+    <string name="title_sort_by_name_a_to_z">Sort by name A to Z</string>
+    <string name="title_sort_by_name_z_to_a">Sort by name Z to A</string>
+    <string name="title_sort_by_size">Size</string>
+    <string name="title_stop">Stop</string>
+    <string name="title_supported">Supported</string>
+    <string name="title_supported_abi">Supported ABIs</string>
+    <string name="title_system_icons">System icons</string>
+    <string name="title_terms_of_service">Terms of Service</string>
+    <string name="title_text">Text</string>
+    <string name="title_trackpad">Trackpad</string>
+    <string name="title_trackpad_sensitivity">Trackpad sensitivity</string>
+    <string name="title_uninstall_app">Uninstall app</string>
+    <string name="title_uninstall_app_confirmation">Uninstall now?</string>
+    <string name="title_unknown_model">Unknown model</string>
+    <string name="title_unsupported_android_version">Unsupported Android version</string>
+    <string name="title_upload_files">Upload files</string>
+    <string name="title_upload_folder">Upload folder</string>
+    <string name="title_url">URL</string>
+    <string name="title_use_default_adb_server_token">Use default adb server token</string>
+    <string name="title_use_dynamic_color">Use dynamic color</string>
+    <string name="title_use_physical_buttons">Use physical buttons</string>
+    <string name="title_use_vibrator_api_for_haptic">Use Vibrator API for Haptic</string>
+    <string name="title_user_interface">User interface</string>
+    <string name="title_username">Username</string>
+    <string name="title_version_code">Version code</string>
+    <string name="title_version_name">Version name</string>
+    <string name="title_visit_website">Visit website</string>
+    <string name="title_volume_down">Volume down</string>
+    <string name="title_volume_up">Volume up</string>
+    <string name="title_what_is_it">What is it?</string>
+    <string name="title_what_is_new">What\'s New</string>
+    <string name="title_wireless_debugging_mode">Wireless debugging mode</string>
+
+    <plurals name="wait_n_seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+    <string name="ad_attribution" translatable="false">Ad</string>
+
+    <string name="btn_alt" translatable="false">Alt</string>
+    <string name="btn_ctrl" translatable="false">Ctrl</string>
+    <string name="btn_escape" translatable="false">Esc</string>
+    <string name="btn_insert" translatable="false">Insert</string>
+    <string name="btn_shift" translatable="false">Shift</string>
+    <string name="btn_tab" translatable="false">Tab</string>
+
+    <string name="const_tcp_port" translatable="false">5555</string>
+
+    <string name="notification_channel_device_connection" translatable="false">Device connection</string>
+
+    <string name="title_allow_usb_debugging" translatable="false">Allow USB debugging</string>
+    <string name="title_client_app_version" translatable="false">%s (%d)</string>
+    <string name="title_compile_sdk" translatable="false">Compile SDK</string>
+    <string name="title_default_ip" translatable="false">192.168.x.x</string>
+    <string name="title_default_port" translatable="false">5555</string>
+    <string name="title_developer_name" translatable="false">Kaung Khant Kyaw</string>
+    <string name="title_f1" translatable="false">F1</string>
+    <string name="title_f10" translatable="false">F10</string>
+    <string name="title_f11" translatable="false">F11</string>
+    <string name="title_f12" translatable="false">F12</string>
+    <string name="title_f2" translatable="false">F2</string>
+    <string name="title_f3" translatable="false">F3</string>
+    <string name="title_f4" translatable="false">F4</string>
+    <string name="title_f5" translatable="false">F5</string>
+    <string name="title_f6" translatable="false">F6</string>
+    <string name="title_f7" translatable="false">F7</string>
+    <string name="title_f8" translatable="false">F8</string>
+    <string name="title_f9" translatable="false">F9</string>
+    <string name="title_incremental" translatable="false">Incremental</string>
+    <string name="title_ip_address" translatable="false">IP address</string>
+    <string name="title_launcher_activity" translatable="false">Launcher activity</string>
+    <string name="title_min_sdk" translatable="false">Minimum SDK</string>
+    <string name="title_move_end" translatable="false">End</string>
+    <string name="title_n_cpu_core" translatable="false">Core %d</string>
+    <string name="title_page_down" translatable="false">PgDn</string>
+    <string name="title_page_up" translatable="false">PgUp</string>
+    <string name="title_pairing_code" translatable="false">Pairing code</string>
+    <string name="title_pairing_port" translatable="false">Pairing port</string>
+    <string name="title_percent" translatable="false">%d%%</string>
+    <string name="title_port" translatable="false">Port</string>
+    <string name="title_system" translatable="false">System</string>
+    <string name="title_target_sdk" translatable="false">Target SDK</string>
+    <string name="title_tcp_ip_port" translatable="false">TCP-IP port</string>
+    <string name="title_user" translatable="false">User</string>
+    <string name="title_user_id" translatable="false">User ID (UID)</string>
+</resources>

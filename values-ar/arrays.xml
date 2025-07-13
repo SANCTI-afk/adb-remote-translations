@@ -1,9 +1,9 @@
 <resources>
     <!-- App Theme Preference -->
     <string-array name="theme_entries">
-        <item>System default</item>
-        <item>Light</item>
-        <item>Dark</item>
+        <item>الإفتراضي للنظام</item>
+        <item>فاتح</item>
+        <item>داكن</item>
     </string-array>
 
     <string-array name="theme_values">
@@ -14,8 +14,9 @@
 
     <!-- Language Preference -->
     <string-array name="language_entries">
-        <item>English</item>
-        <item>Myanmar</item>
+        <item>الإنجليزية</item>
+        <item>الميانمارية</item>
+        <item>العربية</item>
     </string-array>
 
     <string-array name="language_values" translatable="false">
@@ -24,8 +25,8 @@
     </string-array>
 
     <string-array name="root_folder_types">
-        <item>Internal storage</item>
-        <item>Custom path</item>
+        <item>التخزين الداخلي</item>
+        <item>مسار مخصص</item>
     </string-array>
 
     <string-array name="open_remotely_using" translatable="false">
@@ -41,15 +42,15 @@
     </string-array>
 
     <string-array name="apps_in_search_entries">
-        <item>All apps</item>
-        <item>User apps</item>
-        <item>System apps</item>
+        <item>كل التطبيقات</item>
+        <item>تطبيقات المستخدم</item>
+        <item>تطبيقات النظام</item>
     </string-array>
 
     <string-array name="apps_in_search_values">
-        <item>all</item>
-        <item>user</item>
-        <item>system</item>
+        <item>كل</item>
+        <item>المستخدم</item>
+        <item>النظام</item>
     </string-array>
 
     <string-array name="btn_control_mode_entries">

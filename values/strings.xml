@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">ADB Remote</string>
+    <string name="app_name" translatable="false">ADB Remote</string>
 
     <string name="btn_add_device">Add device</string>
     <string name="btn_agree">Agree</string>

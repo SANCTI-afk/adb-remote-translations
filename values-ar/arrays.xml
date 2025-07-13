@@ -41,12 +41,4 @@
         <item>ADB binary (مستقر)</item>
         <item>ADB server (بديل)</item>
     </string-array>
-
-    <string-array name="btn_control_mode_values">
-        <item>socket</item>
-        <item>binary</item>
-        <item>server</item>
-    </string-array>
-
-
 </resources>

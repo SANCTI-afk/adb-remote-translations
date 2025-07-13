@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">ADB ريموت</string>
-
     <string name="btn_add_device">إضافة جهاز</string>
     <string name="btn_agree">موافق</string>
     <string name="btn_apply">تطبيق</string>
@@ -300,7 +298,8 @@
     <string name="title_keyboard">لوحة المفاتيح</string>
     <string name="title_language">لغة</string>
     <string name="title_last_modified">آخر تعديل</string>
-    <string name="title_last_update_time">آخر وقت تحديث<string name="title_logs">App logs</string>
+    <string name="title_last_update_time">آخر وقت تحديث</string>
+    <string name="title_logs">App logs</string>
     <string name="title_manage_apps">إدارة التطبيقات</string>
     <string name="title_manage_processes">إدارة العمليات</string>
     <string name="title_manufacturer">المصنع</string>

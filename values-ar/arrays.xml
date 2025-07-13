@@ -6,12 +6,6 @@
         <item>داكن</item>
     </string-array>
 
-    <string-array name="theme_values">
-        <item>النظام</item>
-        <item>فاتح</item>
-        <item>داكن</item>
-    </string-array>
-
     <!-- Language Preference -->
     <string-array name="language_entries">
         <item>الإنجليزية</item>
@@ -28,12 +22,6 @@
         <item>كل التطبيقات</item>
         <item>تطبيقات المستخدم</item>
         <item>تطبيقات النظام</item>
-    </string-array>
-
-    <string-array name="apps_in_search_values">
-        <item>كل</item>
-        <item>المستخدم</item>
-        <item>النظام</item>
     </string-array>
 
     <string-array name="btn_control_mode_entries">
